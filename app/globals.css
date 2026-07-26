@@ -205,7 +205,7 @@ p {
   border-bottom: 1px solid var(--line);
   border-top: 1px solid var(--line);
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   margin-top: 46px;
 }
 
@@ -338,6 +338,7 @@ p {
   line-height: 1.8;
   margin: 0;
   max-width: 990px;
+  white-space: pre-line;
 }
 
 .section {
@@ -381,6 +382,185 @@ p {
   font-size: 13px;
   line-height: 1.6;
   margin: 0;
+}
+
+.angle-list {
+  display: grid;
+  gap: 18px;
+}
+
+.angle-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  padding: 30px;
+}
+
+.angle-header {
+  align-items: start;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 58px minmax(0, 1fr) 88px;
+}
+
+.angle-rank,
+.angle-score {
+  display: grid;
+  gap: 4px;
+}
+
+.angle-rank span,
+.angle-score span,
+.angle-question > span,
+.angle-details span {
+  color: var(--muted);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.angle-rank strong {
+  color: var(--green);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.angle-title h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(25px, 3vw, 38px);
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 1.12;
+  margin: 13px 0 0;
+}
+
+.angle-meta {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.angle-meta > span:first-child {
+  color: var(--green);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.risk {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 4px 7px;
+  text-transform: uppercase;
+}
+
+.risk.low {
+  background: var(--mint);
+  color: var(--green);
+}
+
+.risk.medium {
+  background: var(--amber-soft);
+  color: #744a0d;
+}
+
+.risk.high {
+  background: var(--red-soft);
+  color: #7b3228;
+}
+
+.angle-score {
+  border-left: 1px solid var(--line);
+  padding-left: 20px;
+  text-align: right;
+}
+
+.angle-score strong {
+  color: var(--green);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+.angle-hook {
+  border-left: 3px solid var(--lime);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 21px;
+  line-height: 1.45;
+  margin: 28px 0 24px 82px;
+  max-width: 940px;
+  padding-left: 18px;
+}
+
+.angle-question {
+  background: #f4f6e8;
+  margin-left: 82px;
+  padding: 18px 20px;
+}
+
+.angle-question p {
+  color: #32423c;
+  font-size: 14px;
+  line-height: 1.55;
+  margin: 7px 0 0;
+}
+
+.angle-details {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 24px 0 0 82px;
+}
+
+.angle-details > div {
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+
+.angle-details p {
+  color: #3e4d47;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 7px 0 0;
+}
+
+.angle-footer {
+  align-items: center;
+  border-top: 1px solid var(--line);
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  margin: 24px 0 0 82px;
+  padding: 16px 0 0;
+}
+
+.angle-lenses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.angle-lenses span {
+  background: var(--gray-soft);
+  border-radius: 3px;
+  color: var(--muted);
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 8px;
+  padding: 4px 6px;
+  text-transform: uppercase;
+}
+
+.angle-footer .source-refs {
+  margin-left: 0;
 }
 
 .evidence-groups {
@@ -857,6 +1037,10 @@ footer p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .angle-details {
+    grid-template-columns: 1fr;
+  }
+
   .source-card {
     grid-template-columns: 42px 1fr;
   }
@@ -896,8 +1080,7 @@ footer p {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .metrics > div:nth-child(4),
-  .metrics > div:nth-child(5) {
+  .metrics > div:nth-child(n + 4) {
     border-top: 1px solid var(--line);
   }
 
@@ -933,6 +1116,40 @@ footer p {
   .coverage-note,
   .gap-grid {
     grid-template-columns: 1fr;
+  }
+
+  .angle-card {
+    padding: 23px 20px;
+  }
+
+  .angle-header {
+    gap: 14px;
+    grid-template-columns: 42px minmax(0, 1fr);
+  }
+
+  .angle-score {
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    grid-column: 2;
+    grid-template-columns: 1fr auto;
+    padding: 12px 0 0;
+    text-align: left;
+  }
+
+  .angle-score strong {
+    font-size: 28px;
+  }
+
+  .angle-hook,
+  .angle-question,
+  .angle-details,
+  .angle-footer {
+    margin-left: 0;
+  }
+
+  .angle-footer {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .perspective-card {

@@ -1,831 +1,1862 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "version": 1,
   "status": "awaiting_review",
   "plan_version": 3,
   "context_fingerprint": "37635ce6b5a2580eb067dc5220b3c67dbf29ff45ed0f8bed7d3360256d27ef09",
-  "summary": "Semaglutide is a long-acting GLP-1 receptor agonist with strong randomized-trial and regulatory evidence for glycemic control in type 2 diabetes, substantial weight loss in selected overweight or obesity populations, and reduced major cardiovascular events in high-risk populations. Its established mechanisms include glucose-dependent insulin stimulation, glucagon suppression, delayed gastric emptying and appetite reduction. Common gastrointestinal adverse effects and several uncommon or uncertain risks require individualized monitoring. Evidence for adipose browning, mitochondrial, neuroprotective, Alzheimer’s disease and PCOS benefits remains predominantly preclinical or otherwise insufficient. Important unresolved issues include long-term safety, subgroup risks, treatment durability, access inequities and limited direct evidence from affected communities.",
+  "summary": "# Semaglutide: Biology, Benefits, Risks, and Societal Impact\n\nSemaglutide is a glucagon-like peptide‑1 (GLP‑1) receptor agonist that has rapidly transformed the management of type 2 diabetes and obesity, while simultaneously reshaping healthcare systems, pharmaceutical markets, and public discourse about weight, chronic disease, and personal responsibility.[1][3][4][5][9][20] Originally developed as a glucose‑lowering agent, semaglutide is now approved in multiple formulations—Ozempic, Rybelsus, and Wegovy—for glycemic control, cardiovascular risk reduction, chronic kidney disease risk reduction, and long‑term weight management in adults and adolescents.[1][2][7][8][10][13] Large randomized trials consistently show that once‑weekly subcutaneous semaglutide produces substantial, clinically meaningful weight loss of roughly 10–17% of baseline weight, improves cardiometabolic risk factors, and reduces major adverse cardiovascular events in high‑risk patients with type 2 diabetes.[4][5][11][13] At the same time, semaglutide’s benefits are accompanied by a characteristic adverse‑effect profile dominated by gastrointestinal symptoms, an elevated risk of gallbladder disease, a boxed warning for thyroid C‑cell tumors based on rodent data, and specific concerns around diabetic retinopathy progression in rapidly improving glycemic states.[1][2][8][14][19]\n\nTo understand semaglutide without misleading simplification, it is essential to situate it within GLP‑1 biology, the history of incretin‑based therapies, and the regulatory and guideline environment that governs its clinical use.[3][9][20] Mechanistically, semaglutide is a modified GLP‑1 analog with 94% homology to native human GLP‑1, engineered for prolonged half‑life and high receptor affinity, leading to enhanced glucose‑dependent insulin secretion, suppression of glucagon, delayed gastric emptying, central appetite modulation, and broader anti‑inflammatory and mitochondrial effects that are still being fully elucidated.[1][3] Quantitatively, the key effects that matter for an educational audience include absolute and relative weight loss in different populations, changes in HbA1c and cardiovascular event rates, the magnitude and time course of weight regain after discontinuation, and the incidence of common and serious adverse events—each derived from specific trial designs, baselines, and inclusion criteria that impose limits on how far results can be generalized.[4][5][11][12][13][14]\n\nInstitutional actors such as the U.S. Food and Drug Administration (FDA), the European Medicines Agency (EMA), the American Diabetes Association (ADA), and NICE in the U.K. now explicitly incorporate semaglutide into therapeutic algorithms for diabetes and obesity and have gradually expanded its indications in response to accumulating evidence.[2][5][6][7][8][9][10][15] Researchers largely agree that semaglutide is among the most potent currently available glucose‑lowering and weight‑reducing drugs, with cardiovascular safety established and cardiovascular benefit demonstrated in injectable formulations for high‑risk type 2 diabetes.[3][4][5][6][9][14] However they are careful to qualify mechanistic interpretations based on rodent data, highlight unresolved questions about rare safety signals such as pancreatic and thyroid cancer, and emphasize the near‑inevitability of weight regain when pharmacologic appetite suppression is withdrawn.[3][12][14] Industry participants, especially Novo Nordisk, have strong incentives to frame semaglutide as a long‑term, broadly beneficial solution, reflected in massive revenue growth and strategic messaging around chronic disease burden, whereas critics point to shortages, unequal access, off‑label use, and potential harms to people with or at risk of eating disorders.[16][17][18]\n\nAffected communities—people living with diabetes, obesity, and related conditions—report dramatic improvements in weight, glycemic control, and quality of life, but also challenging gastrointestinal symptoms, complex emotional responses to rapid body changes, and distress when therapy is interrupted and weight returns.[4][12][18][19] Public discourse, amplified by social media, celebrity testimonials, and weight‑loss marketing, often oversimplifies semaglutide as a near‑miraculous “skinny shot,” downplaying its status as a prescription drug for serious chronic conditions, the need for ongoing lifestyle measures, and the limited data on long‑term mental‑health and eating‑disorder impacts.[1][4][16][18][19] For an educational video, the most responsible approach is to disclose rather than resolve key tensions: semaglutide’s striking efficacy versus its non‑curative nature; clear cardiovascular and metabolic benefits versus uncertain rare risks; transformative individual stories versus structural issues of cost, access, and stigma.\n\nThis report synthesizes firmly established facts, mechanistic understanding, quantitative outcomes, regulatory positions, expert debates, industry and critic claims, lived experiences, and public narratives to support a nuanced, evidence‑based framing of semaglutide. It traces historical turning points in GLP‑1 therapy, maps current areas of consensus and disagreement, identifies gaps where evidence is thin or absent, and proposes a set of potential angles for educational storytelling that foreground trade‑offs, human stories, and societal implications rather than simple celebration or condemnation.\n\n## Introduction: Core Reality Of Semaglutide\n\nSemaglutide belongs to the class of GLP‑1 receptor agonists, drugs that mimic the incretin hormone GLP‑1 to enhance glucose‑dependent insulin secretion and modulate appetite, thereby addressing two central pathophysiologic domains in type 2 diabetes and obesity.[1][3][8][9][20] Unlike earlier short‑acting GLP‑1 analogs, semaglutide has been chemically modified to extend its half‑life to approximately one week, enabling once‑weekly injectable dosing and, in a distinct formulation with absorption enhancers, once‑daily oral administration.[1][2][3][6] The same active molecule underlies three major branded products: Ozempic, approved initially for glycemic control in adults with type 2 diabetes and later for reduction of cardiovascular events and kidney‑disease progression in selected high‑risk populations; Rybelsus, the first oral GLP‑1 agonist approved for type 2 diabetes; and Wegovy, specifically approved for chronic weight management in adults and adolescents with obesity or overweight plus comorbidities.[1][2][7][8][10][13]\n\nThe core reality established across trials and real‑world data is that semaglutide delivers large and consistent reductions in HbA1c and body weight, with additional benefits for cardiovascular risk factors and, in injectable formulations, a reduction in major adverse cardiovascular events among people with type 2 diabetes and high baseline risk.[4][5][6][8][9][11][13] In the STEP 1 trial, adults with obesity or overweight but without diabetes who received once‑weekly 2.4 mg semaglutide plus lifestyle intervention lost on average 14.9% of their baseline body weight over 68 weeks, compared with 2.4% in the placebo group, a difference far exceeding that of other approved anti‑obesity medications.[4] In SUSTAIN‑6, adults with type 2 diabetes and high cardiovascular risk treated with once‑weekly semaglutide had a 26% lower risk of a composite endpoint of cardiovascular death, nonfatal myocardial infarction, or nonfatal stroke compared with placebo, with the benefit largely driven by reductions in nonfatal stroke.[5] In adolescents with obesity in the STEP TEENS trial, once‑weekly 2.4 mg semaglutide combined with lifestyle intervention produced a mean 16.1% reduction in BMI over 68 weeks and substantial improvements in cardiometabolic markers.[13]\n\nThis potency in both glycemic control and weight reduction has led major guidelines bodies to position semaglutide and similar GLP‑1 receptor agonists as preferred agents over insulin for many adults with type 2 diabetes without clear insulin deficiency, in part because of lower hypoglycemia risk and favorable weight outcomes.[9] At the same time, semaglutide’s increasing use for weight management outside of diabetes—especially driven by Wegovy approval and off‑label Ozempic prescribing—has contributed to nationwide shortages, intense media coverage, and a surge in demand that has outpaced supply.[1][10][16][17] These dynamics underscore the need to present semaglutide not as a simple weight‑loss “hack,” but as a potent pharmacologic tool embedded in complex biological, clinical, economic, and cultural systems.\n\n## Mechanisms, Definitions, And Chronology\n\n### GLP‑1 Physiology And GLP‑1 Receptor Agonists\n\nTo avoid misleading accounts, an educational treatment of semaglutide must begin by clarifying what GLP‑1 is and how GLP‑1 receptor agonists work. GLP‑1 is an incretin hormone secreted by intestinal L‑cells in response to nutrient ingestion, particularly carbohydrates and fats, and plays a central role in the “incretin effect,” whereby oral glucose triggers a greater insulin response than intravenous glucose at the same plasma concentration.[3][20] Native GLP‑1 is rapidly degraded by dipeptidyl peptidase‑4 (DPP‑4), giving it a half‑life of only a few minutes, which limits its direct therapeutic use. GLP‑1 receptor agonists are synthetic peptides designed to resist DPP‑4 degradation and bind with high affinity to the GLP‑1 receptor, thereby sustaining the biological actions of GLP‑1 over many hours or days.[3][20]\n\nBinding of GLP‑1 receptor agonists such as semaglutide to the GLP‑1 receptor on pancreatic β‑cells triggers intracellular signaling cascades involving cyclic AMP (cAMP), protein kinase A (PKA), and phosphatidylinositol 3‑kinase (PI3K), ultimately enhancing glucose‑dependent insulin biosynthesis and secretion.[3] This means that insulin release is increased primarily when blood glucose levels are elevated, which reduces the risk of hypoglycemia compared with insulin or sulfonylureas that stimulate insulin secretion regardless of ambient glucose.[3][9][14] At the same time, GLP‑1 receptor activation suppresses glucagon secretion from pancreatic α‑cells, slows gastric emptying, and acts on central nervous system circuits to reduce appetite and increase satiety.[1][3][8] These combined effects lead to improved glycemic control and decreased caloric intake, forming the basis of semaglutide’s dual role in diabetes and obesity management.[1][3][4]\n\nHistorically, the GLP‑1 receptor agonist drug class has evolved from short‑acting agents requiring twice‑daily injections to once‑daily and once‑weekly formulations, reflecting advances in peptide engineering and delivery technologies.[20] Exenatide and liraglutide were among the earliest drugs in this class, offering meaningful HbA1c reductions and modest weight loss but requiring more frequent administration.[20] The development of longer‑acting molecules such as dulaglutide and semaglutide represented a turning point, enabling weekly dosing and, in the case of semaglutide, facilitating exploration of oral delivery through co‑formulation with absorption enhancers.[2][6][20] As each generation of GLP‑1 receptor agonists demonstrated cardiovascular safety in increasingly rigorous outcome trials, regulatory agencies became more comfortable granting broader indications and eventually recognizing cardiovascular benefit, as occurred with semaglutide’s injectable formulation.[5][6][8][9]\n\n### Molecular Pharmacology Of Semaglutide\n\nSemaglutide itself is a modified GLP‑1 analog with approximately 94% sequence homology to human GLP‑1, engineered with specific structural alterations that confer prolonged half‑life and strong albumin binding.[1][3] These changes include amino acid substitutions that reduce susceptibility to DPP‑4 degradation and a covalently attached fatty acid side chain that promotes reversible binding to plasma albumin, thereby slowing renal clearance.[3] The result is a peptide with a terminal half‑life of about one week following subcutaneous injection, allowing once‑weekly dosing at steady‑state concentrations that support continuous GLP‑1 receptor activation.[1][3][8]\n\nUpon binding to the GLP‑1 receptor, semaglutide activates G‑protein–coupled signaling, leading to increased cAMP production and activation of PKA and other downstream pathways such as PI3K/AKT and AMPK/SIRT1.[3] In β‑cells, these pathways enhance insulin gene transcription, promote insulin granule exocytosis, reduce apoptosis, and support β‑cell proliferation, collectively improving β‑cell function and potentially preserving β‑cell mass over time.[3] In peripheral tissues such as skeletal muscle and adipose tissue, semaglutide’s signaling effects promote translocation of glucose transporter type 4 (GLUT4) to the plasma membrane, enhancing glucose uptake in an insulin‑independent manner and ameliorating insulin resistance.[3] In adipose tissue, semaglutide appears to reduce macrophage infiltration and inflammatory mediator production, and in preclinical models, it may promote browning of white adipose tissue and mitochondrial biogenesis, though these mechanistic hypotheses remain more speculative in humans.[3]\n\nCentral nervous system effects are crucial for understanding semaglutide’s impact on appetite and weight. GLP‑1 receptors are expressed in hypothalamic and brainstem nuclei involved in energy homeostasis, including the arcuate nucleus, where semaglutide stimulates anorexigenic pro‑opiomelanocortin (POMC)/cocaine‑ and amphetamine‑regulated transcript (CART) neurons and indirectly inhibits orexigenic neuropeptide Y (NPY)/agouti‑related peptide (AgRP) neurons.[3] This shifts the balance of signaling toward satiety and reduced food intake. These central actions complement the delayed gastric emptying, which prolongs feelings of fullness, and together they produce sustained reductions in caloric intake that underlie semaglutide’s weight‑loss effects.[1][3][4] Importantly, most of the more speculative mechanistic claims—such as direct effects on skeletal muscle mass, oxidative stress, and autophagy—are derived from rodent or cell models; experts caution against over‑interpreting these findings until more robust human data are available.[3]\n\n### Chronology Of Regulatory Approvals And Indications\n\nClarifying the regulatory chronology helps prevent confusion about what semaglutide is formally approved to do and how that has changed over time. Ozempic, the once‑weekly injectable formulation of semaglutide for type 2 diabetes, received its first FDA approval on December 5, 2017, as an adjunct to diet and exercise for improving glycemic control in adults.[7][8] Subsequent label expansions added indications for reduction of major adverse cardiovascular events in adults with type 2 diabetes and established cardiovascular disease, and more recently for reducing the risk of sustained decline in estimated glomerular filtration rate, end‑stage kidney disease, and cardiovascular death in adults with type 2 diabetes and chronic kidney disease.[7][8] The EMA granted a European Union–wide marketing authorization for Ozempic in February 2018 for treatment of adults with insufficiently controlled type 2 diabetes as monotherapy or in combination with other glucose‑lowering agents, with recognition of cardiovascular benefit in high‑risk populations as outcome data matured.[8]\n\nRybelsus, the oral semaglutide formulation, obtained FDA approval more recently as a GLP‑1 receptor agonist indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.[2] The label explicitly specifies that Rybelsus is not for treatment of type 1 diabetes and is to be taken once daily on an empty stomach with a small amount of water, reflecting the delicate absorption profile of the co‑formulated peptide.[2] Cardiovascular outcome data from the PIONEER‑6 trial demonstrated noninferiority of oral semaglutide compared with placebo with respect to major adverse cardiovascular events, supporting its safety but not an explicit cardiovascular benefit indication.[6]\n\nWegovy, the high‑dose semaglutide formulation for chronic weight management, received FDA approval as an adjunct to reduced‑calorie diet and increased physical activity for long‑term weight management in adults with obesity (BMI ≥30 kg/m²) or overweight (BMI ≥27 kg/m²) with at least one weight‑related comorbidity such as hypertension, type 2 diabetes, or dyslipidemia.[1][10] Later, its indication was expanded to include adolescents aged 12 and older with obesity defined as BMI at or above the 95th percentile for age and sex.[1][13] The approved maintenance dose for Wegovy is 2.4 mg weekly after a gradual titration starting at 0.25 mg to mitigate gastrointestinal side effects.[1][10] In the U.K., NICE has issued guidance recommending semaglutide (Wegovy) for managing overweight and obesity in selected adult populations within the National Health Service, reflecting careful balancing of efficacy, cost, and health‑system priorities.[10]\n\n## Quantitative Outcomes: Efficacy, Populations, And Uncertainty\n\n### Weight Loss Magnitude And Trial Populations\n\nThe quantitative claims that most shape public perception concern weight loss, so it is crucial to specify the populations, baselines, and time horizons from which these numbers arise. In STEP 1, a 68‑week randomized, double‑blind, placebo‑controlled trial involving adults with obesity (BMI ≥30 kg/m²) or overweight (BMI ≥27 kg/m²) plus at least one weight‑related condition and without diabetes, participants receiving once‑weekly 2.4 mg semaglutide plus lifestyle intervention experienced a mean 14.9% reduction in body weight from baseline, versus 2.4% in the placebo group, yielding an estimated treatment difference of 12.4 percentage points.[4] Moreover, 86.4% of semaglutide‑treated participants achieved at least 5% weight loss, 69.1% achieved at least 10%, and 50.5% achieved at least 15%, compared with 31.5%, 12.0%, and smaller fractions respectively in the placebo arm.[4] These results highlight the drug’s capacity to produce weight loss in ranges historically attainable only with bariatric surgery, albeit with important differences in durability and mechanisms.\n\nIn STEP 2, which focused specifically on adults with overweight or obesity and type 2 diabetes, once‑weekly semaglutide 2.4 mg produced an estimated mean weight reduction of 9.6% at 68 weeks compared with 3.4% with placebo, again as an adjunct to lifestyle intervention.[11] In this population, glycemic improvements were also robust, but the key comparison for weight is between semaglutide 2.4 mg and the 1.0 mg dose approved for diabetes; even at 1.0 mg, semaglutide led to substantially greater weight loss than placebo, but the 2.4 mg obesity dose intensified the effect.[11] These trials enrolled participants with baseline BMIs typically in the high 30s and overweight‑related comorbidities, meaning that the absolute kilograms lost were large, but they also reflect a controlled environment with structured lifestyle support and close monitoring.\n\nAmong adolescents with obesity, STEP TEENS showed that once‑weekly 2.4 mg semaglutide plus lifestyle intervention resulted in a mean 16.1% reduction in BMI over 68 weeks, compared with a 0.6% increase in the placebo group.[13] Approximately three‑quarters of adolescents in the semaglutide arm achieved at least 5% weight loss, and many reached higher thresholds up to 20%.[13] Cardiometabolic markers such as waist circumference, glycated hemoglobin, lipid levels, and alanine aminotransferase improved more in the semaglutide group than in the placebo group.[13] These results are striking but must be interpreted in the context of adolescent physiology, psychosocial development, and the relatively short duration of follow‑up, which leaves questions\n\n[Report truncated; full provider output remains in research_result.json]",
   "sources": [
     {
-      "id": "source-1",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674233/",
-      "title": "Review of semaglutide mechanisms and multi-system effects",
-      "publisher": "PubMed Central",
-      "published_at": null,
-      "source_kind": "research",
-      "evidence_role": "secondary",
-      "authority_notes": "Scholarly review used for established and proposed mechanisms; many extended mechanistic findings summarized are preclinical.",
-      "freshness_notes": "Publication date is not stated in the supplied report; undated here and should be checked before publication."
-    },
-    {
-      "id": "source-2",
-      "url": "https://my.clevelandclinic.org/health/treatments/13901-glp-1-agonists",
-      "title": "GLP-1 Agonists",
-      "publisher": "Cleveland Clinic",
-      "published_at": null,
+      "id": "s1",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK603723/",
+      "title": "Semaglutide - StatPearls",
+      "publisher": "NCBI Bookshelf / NIH",
+      "published_at": "2024-01-01",
       "source_kind": "institutional",
       "evidence_role": "secondary",
-      "authority_notes": "Patient-facing clinical-institution guidance about the GLP-1 agonist class, benefits and adverse effects; not semaglutide-specific primary research.",
-      "freshness_notes": "Publication or review date is absent from the report; currentness should be verified before reuse."
+      "authority_notes": "Peer-reviewed clinical review published on NCBI Bookshelf, widely used reference for clinicians.",
+      "freshness_notes": "Updated 2024, reflects current indications including obesity and adolescent use."
     },
     {
-      "id": "source-3",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2023/209637s020s021lbl.pdf",
-      "title": "Ozempic prescribing information",
-      "publisher": "U.S. Food and Drug Administration",
-      "published_at": "2023",
-      "source_kind": "institutional",
-      "evidence_role": "primary",
-      "authority_notes": "Primary U.S. regulatory source for Ozempic indications, dosing, contraindications, boxed warning and safety information.",
-      "freshness_notes": "A 2023 label; later supplements may supersede individual provisions."
-    },
-    {
-      "id": "source-4",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/30615985/",
-      "title": "Review of the SUSTAIN clinical trial program",
-      "publisher": "PubMed",
-      "published_at": "2019",
-      "source_kind": "research",
-      "evidence_role": "secondary",
-      "authority_notes": "Peer-reviewed synthesis of subcutaneous semaglutide trial evidence and mechanisms in type 2 diabetes.",
-      "freshness_notes": "Useful for the early SUSTAIN evidence base but stale for subsequent indications and safety updates."
-    },
-    {
-      "id": "source-5",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183",
-      "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity",
-      "publisher": "New England Journal of Medicine",
-      "published_at": "2021",
-      "source_kind": "research",
-      "evidence_role": "primary",
-      "authority_notes": "Original randomized STEP 1 trial supporting weight-loss efficacy in its specified population and treatment setting.",
-      "freshness_notes": "Foundational efficacy study; it does not by itself establish longer-term effectiveness or safety beyond its follow-up."
-    },
-    {
-      "id": "source-6",
-      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563",
-      "title": "Semaglutide and Cardiovascular Outcomes in Obesity without Diabetes",
-      "publisher": "New England Journal of Medicine",
-      "published_at": null,
-      "source_kind": "research",
-      "evidence_role": "primary",
-      "authority_notes": "Original SELECT randomized cardiovascular-outcomes trial in adults with preexisting cardiovascular disease and overweight or obesity without diabetes.",
-      "freshness_notes": "Publication date is not explicitly supplied in the report; no later follow-up is represented."
-    },
-    {
-      "id": "source-7",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11489890/",
-      "title": "Fatal acute pancreatitis associated with semaglutide use: case report",
-      "publisher": "PubMed Central",
-      "published_at": null,
-      "source_kind": "research",
-      "evidence_role": "primary",
-      "authority_notes": "Individual case report documenting a severe outcome; useful for signal illustration but unable to estimate incidence or prove causality.",
-      "freshness_notes": "Publication date is absent from the report; applicability remains limited by the case-report design."
-    },
-    {
-      "id": "source-8",
-      "url": "https://www.drugs.com/history/rybelsus.html",
-      "title": "Rybelsus FDA approval history",
-      "publisher": "Drugs.com",
-      "published_at": null,
-      "source_kind": "other",
-      "evidence_role": "secondary",
-      "authority_notes": "Secondary regulatory-history page; less authoritative than FDA approval records and labels.",
-      "freshness_notes": "Undated in the report and implicated in an unresolved discrepancy over the initial approval date."
-    },
-    {
-      "id": "source-9",
-      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
-      "title": "Wegovy: European public assessment report",
-      "publisher": "European Medicines Agency",
-      "published_at": null,
-      "source_kind": "institutional",
-      "evidence_role": "primary",
-      "authority_notes": "Primary European regulatory source for Wegovy indications and benefit-risk assessment.",
-      "freshness_notes": "EPAR pages can change as indications and safety information evolve; access date is not supplied."
-    },
-    {
-      "id": "source-10",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11790292/",
-      "title": "Comprehensive review of semaglutide efficacy, mechanisms and safety",
-      "publisher": "PubMed Central",
-      "published_at": null,
-      "source_kind": "research",
-      "evidence_role": "secondary",
-      "authority_notes": "Broad scholarly review used for clinical synthesis, mechanistic interpretation and unresolved safety issues; not a substitute for original trials or labels.",
-      "freshness_notes": "Publication date is not stated in the report; underlying evidence varies in age and quality."
-    },
-    {
-      "id": "source-11",
-      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf",
-      "title": "Wegovy prescribing information",
-      "publisher": "U.S. Food and Drug Administration",
-      "published_at": "2025",
-      "source_kind": "institutional",
-      "evidence_role": "primary",
-      "authority_notes": "Primary U.S. regulatory source for Wegovy indications, dosing, contraindications, boxed warning and safety information, including the reported MASH indication.",
-      "freshness_notes": "Current to the cited 2025 supplement but subject to later label changes."
-    },
-    {
-      "id": "source-12",
-      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-treatment-reduce-risk-serious-heart-problems-specifically-adults-obesity-or",
-      "title": "FDA approves first treatment to reduce risk of serious heart problems specifically in adults with obesity or overweight",
-      "publisher": "U.S. Food and Drug Administration",
-      "published_at": "2024",
-      "source_kind": "institutional",
-      "evidence_role": "primary",
-      "authority_notes": "Primary FDA announcement explaining the cardiovascular risk-reduction approval for Wegovy.",
-      "freshness_notes": "Reflects the approval position at publication; the prescribing label remains controlling for current use."
-    },
-    {
-      "id": "source-13",
+      "id": "s2",
       "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/213051s018lbl.pdf",
-      "title": "Rybelsus prescribing information",
+      "title": "Rybelsus (semaglutide) tablets Prescribing Information",
       "publisher": "U.S. Food and Drug Administration",
-      "published_at": "2024",
+      "published_at": "2024-01-01",
       "source_kind": "institutional",
       "evidence_role": "primary",
-      "authority_notes": "Primary U.S. regulatory source for Rybelsus indication, administration, contraindications and boxed warning.",
-      "freshness_notes": "A 2024 label that may be superseded by later supplements; the report notes a date inconsistency requiring verification."
+      "authority_notes": "Official FDA label with legal indications, dosing, and boxed warnings.",
+      "freshness_notes": "Label updated 2024; current for regulatory details."
     },
     {
-      "id": "source-14",
-      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
-      "title": "Ozempic: European public assessment report",
-      "publisher": "European Medicines Agency",
-      "published_at": null,
-      "source_kind": "institutional",
-      "evidence_role": "primary",
-      "authority_notes": "Primary European regulatory source for Ozempic authorization, indication, mechanism summary and benefit-risk assessment.",
-      "freshness_notes": "The report cites the 2018 authorization, but the living EPAR page may contain later updates."
-    },
-    {
-      "id": "source-15",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7905697/",
-      "title": "Effect of Subcutaneous Semaglutide vs Placebo as an Adjunct to Intensive Behavioral Therapy on Body Weight in Adults With Overweight or Obesity",
-      "publisher": "JAMA",
-      "published_at": null,
-      "source_kind": "research",
-      "evidence_role": "primary",
-      "authority_notes": "Original randomized trial evaluating semaglutide with intensive behavioral therapy and an initial low-calorie diet.",
-      "freshness_notes": "Publication date is not explicitly stated in the report; its intensive intervention limits direct generalization to routine care."
-    },
-    {
-      "id": "source-16",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/35441470/",
-      "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide: STEP 1 trial extension",
-      "publisher": "PubMed",
-      "published_at": null,
-      "source_kind": "research",
-      "evidence_role": "primary",
-      "authority_notes": "Original extension analysis supporting claims about weight regain and regression of cardiometabolic benefits after withdrawal.",
-      "freshness_notes": "Publication date is absent from the report; follow-up covers one year after withdrawal rather than lifetime outcomes."
-    },
-    {
-      "id": "source-17",
-      "url": "https://www.fda.gov/drugs/drug-safety-communications/update-fdas-ongoing-evaluation-reports-suicidal-thoughts-or-actions-patients-taking-certain-type",
-      "title": "Update on FDA’s ongoing evaluation of reports of suicidal thoughts or actions in patients taking certain GLP-1 receptor agonists",
-      "publisher": "U.S. Food and Drug Administration",
-      "published_at": "2024",
-      "source_kind": "institutional",
-      "evidence_role": "primary",
-      "authority_notes": "Primary regulatory safety communication reporting a preliminary evaluation and continuing uncertainty.",
-      "freshness_notes": "Explicitly preliminary and potentially superseded by later pharmacovigilance findings or regulatory action."
-    },
-    {
-      "id": "source-18",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8727607/",
-      "title": "Semaglutide and diabetic retinopathy risk: review of the SUSTAIN evidence",
-      "publisher": "PubMed Central",
-      "published_at": null,
+      "id": "s3",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11674233/",
+      "title": "Spotlight on the Mechanism of Action of Semaglutide",
+      "publisher": "Journal (PMC)",
+      "published_at": "2024-01-01",
       "source_kind": "research",
       "evidence_role": "secondary",
-      "authority_notes": "Scholarly analysis of the SUSTAIN-6 retinopathy signal and possible rapid-glycemic-improvement explanation.",
-      "freshness_notes": "Publication date is not supplied; the report states that definitive FOCUS results were unavailable to the review."
+      "authority_notes": "Narrative mechanistic review summarizing preclinical and clinical mechanistic data.",
+      "freshness_notes": "Recent (2024) and up-to-date on mechanistic hypotheses."
     },
     {
-      "id": "source-19",
-      "url": "https://annualreport.novonordisk.com/2025/_assets/downloads/novo-nordisk-annual-report-2025.pdf?h=9UdfHgQ-",
-      "title": "Novo Nordisk Annual Report 2025",
-      "publisher": "Novo Nordisk",
-      "published_at": "2025",
-      "source_kind": "first_party",
+      "id": "s4",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183",
+      "title": "Once-Weekly Semaglutide in Adults with Overweight or Obesity (STEP 1)",
+      "publisher": "New England Journal of Medicine",
+      "published_at": "2021-02-01",
+      "source_kind": "research",
       "evidence_role": "primary",
-      "authority_notes": "Primary corporate source for the manufacturer’s commercial framing and product claims; not independent evidence of comparative clinical benefit.",
-      "freshness_notes": "Current for the company’s 2025 reporting period; product and launch claims require independent or regulatory corroboration."
+      "authority_notes": "Landmark phase 3 trial establishing weight-loss efficacy in non-diabetic adults.",
+      "freshness_notes": "2021 trial; still central to current obesity indications."
+    },
+    {
+      "id": "s5",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1607141",
+      "title": "Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes (SUSTAIN-6)",
+      "publisher": "New England Journal of Medicine",
+      "published_at": "2016-09-01",
+      "source_kind": "research",
+      "evidence_role": "primary",
+      "authority_notes": "Pivotal cardiovascular outcomes trial supporting CV benefit indication.",
+      "freshness_notes": "Older (2016) but still foundational for CV risk data."
+    },
+    {
+      "id": "s6",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1901118",
+      "title": "Oral Semaglutide and Cardiovascular Outcomes in Patients with Type 2 Diabetes (PIONEER-6)",
+      "publisher": "New England Journal of Medicine",
+      "published_at": "2019-12-01",
+      "source_kind": "research",
+      "evidence_role": "primary",
+      "authority_notes": "Cardiovascular safety trial for oral semaglutide.",
+      "freshness_notes": "2019; relevant for oral formulation safety."
+    },
+    {
+      "id": "s7",
+      "url": "https://www.drugs.com/history/ozempic.html",
+      "title": "Ozempic (semaglutide) FDA Approval History",
+      "publisher": "Drugs.com",
+      "published_at": "2026-04-23",
+      "source_kind": "journalism",
+      "evidence_role": "secondary",
+      "authority_notes": "Drug information site summarizing regulatory history from FDA data.",
+      "freshness_notes": "Updated 2026, reflects latest approval dates and indications."
+    },
+    {
+      "id": "s8",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
+      "title": "Ozempic European Public Assessment Report (EPAR)",
+      "publisher": "European Medicines Agency",
+      "published_at": "2018-02-08",
+      "source_kind": "institutional",
+      "evidence_role": "secondary",
+      "authority_notes": "Official EU assessment summarizing efficacy, safety, and indications.",
+      "freshness_notes": "2018 original authorization; still key for EU context, though not continuously updated."
+    },
+    {
+      "id": "s9",
+      "url": "https://diabetesjournals.org/care/article/48/Supplement_1/S181/157569/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
+      "title": "Pharmacologic Approaches to Glycemic Treatment (ADA Standards of Care)",
+      "publisher": "Diabetes Care / American Diabetes Association",
+      "published_at": "2025-01-01",
+      "source_kind": "institutional",
+      "evidence_role": "secondary",
+      "authority_notes": "Authoritative clinical guideline shaping diabetes therapy choices.",
+      "freshness_notes": "Very recent Standards of Care; reflects current practice recommendations."
+    },
+    {
+      "id": "s10",
+      "url": "https://www.nice.org.uk/guidance/ta875",
+      "title": "Semaglutide for managing overweight and obesity (NICE TA875)",
+      "publisher": "National Institute for Health and Care Excellence (NICE)",
+      "published_at": "2024-01-01",
+      "source_kind": "institutional",
+      "evidence_role": "secondary",
+      "authority_notes": "UK technology appraisal determining NHS use criteria.",
+      "freshness_notes": "Recent guidance; current for UK obesity indications."
+    },
+    {
+      "id": "s11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33667417/",
+      "title": "Semaglutide 2.4 mg once a week in adults with overweight or obesity and type 2 diabetes",
+      "publisher": "The Lancet",
+      "published_at": "2021-03-13",
+      "source_kind": "research",
+      "evidence_role": "primary",
+      "authority_notes": "Phase 3 superiority trial comparing high-dose vs standard-dose semaglutide and placebo.",
+      "freshness_notes": "2021; key for weight management in T2D."
+    },
+    {
+      "id": "s12",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9542252/",
+      "title": "Weight regain and cardiometabolic effects after withdrawal of semaglutide",
+      "publisher": "Journal (PMC)",
+      "published_at": "2022-01-01",
+      "source_kind": "research",
+      "evidence_role": "primary",
+      "authority_notes": "Extension study quantifying weight regain and metabolic changes after stopping semaglutide.",
+      "freshness_notes": "2022; central to understanding treatment chronicity."
+    },
+    {
+      "id": "s13",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2208601",
+      "title": "Once-Weekly Semaglutide in Adolescents with Obesity (STEP TEENS)",
+      "publisher": "New England Journal of Medicine",
+      "published_at": "2022-12-01",
+      "source_kind": "research",
+      "evidence_role": "primary",
+      "authority_notes": "Phase 3a trial in adolescents, informs pediatric obesity use.",
+      "freshness_notes": "2022; up-to-date for adolescent efficacy and safety."
+    },
+    {
+      "id": "s14",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8294388/",
+      "title": "Safety of Semaglutide",
+      "publisher": "Journal (PMC)",
+      "published_at": "2021-01-01",
+      "source_kind": "research",
+      "evidence_role": "secondary",
+      "authority_notes": "Comprehensive safety review across trials and formulations.",
+      "freshness_notes": "2021; somewhat dated but still key for synthesized safety profile."
+    },
+    {
+      "id": "s15",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/update-fdas-ongoing-evaluation-reports-suicidal-thoughts-or-actions-patients-taking-certain-type",
+      "title": "FDA Drug Safety Communication: Suicidal thoughts or actions and GLP-1 RAs",
+      "publisher": "U.S. Food and Drug Administration",
+      "published_at": "2024-01-01",
+      "source_kind": "institutional",
+      "evidence_role": "secondary",
+      "authority_notes": "Official safety communication summarizing FDA’s suicidality evaluation.",
+      "freshness_notes": "Recent; current position on mental-health risks."
+    },
+    {
+      "id": "s16",
+      "url": "https://www.ajmc.com/view/an-ongoing-crisis-semaglutide-shortage-raises-dual-concerns-for-obesity-and-diabetes-treatment",
+      "title": "An Ongoing Crisis: Semaglutide Shortage Raises Dual Concerns",
+      "publisher": "American Journal of Managed Care",
+      "published_at": "2023-12-12",
+      "source_kind": "journalism",
+      "evidence_role": "secondary",
+      "authority_notes": "Health-policy oriented reporting on shortages and utilization trends.",
+      "freshness_notes": "Late 2023; relevant to current supply issues."
+    },
+    {
+      "id": "s17",
+      "url": "https://annualreport.novonordisk.com/2025/strategic-aspirations/financial-performance.html",
+      "title": "Novo Nordisk Annual Report 2025 – Financial performance",
+      "publisher": "Novo Nordisk",
+      "published_at": "2025-01-01",
+      "source_kind": "first_party",
+      "evidence_role": "secondary",
+      "authority_notes": "Company financial disclosure highlighting obesity-care sales.",
+      "freshness_notes": "2025; current for business and incentive context."
+    },
+    {
+      "id": "s18",
+      "url": "https://suncloudhealth.com/blog/ozempic-s-connection-to-eating-disorders/",
+      "title": "Ozempic’s Connection to Eating Disorders",
+      "publisher": "SunCloud Health",
+      "published_at": "2024-01-01",
+      "source_kind": "community",
+      "evidence_role": "secondary",
+      "authority_notes": "Clinician-run treatment center blog; synthesizes limited evidence and clinical experience.",
+      "freshness_notes": "2024; reflects emerging concerns on GLP-1s and eating disorders."
+    },
+    {
+      "id": "s19",
+      "url": "https://www.goodrx.com/ozempic/semaglutide-side-effects",
+      "title": "20 Ozempic and Wegovy Side Effects You Should Know",
+      "publisher": "GoodRx",
+      "published_at": "2026-01-01",
+      "source_kind": "journalism",
+      "evidence_role": "secondary",
+      "authority_notes": "Consumer-focused medication information based on prescribing data and literature.",
+      "freshness_notes": "2026; up-to-date on common and rare side-effects."
+    },
+    {
+      "id": "s20",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1043661825004700",
+      "title": "History of glucagon-like peptide-1 receptor agonists",
+      "publisher": "Hormone and Metabolic Research or related journal",
+      "published_at": "2025-01-01",
+      "source_kind": "research",
+      "evidence_role": "secondary",
+      "authority_notes": "Historical review of GLP-1 RA development and regulatory milestones.",
+      "freshness_notes": "2025; current for historical and class context."
     }
   ],
   "claims": [
     {
-      "id": "semaglutide-class-and-core-mechanisms",
-      "statement": "Semaglutide is a long-acting GLP-1 receptor agonist whose established actions include glucose-dependent insulin stimulation, glucagon suppression, delayed gastric emptying and reduced appetite or energy intake.",
+      "id": "c1",
+      "statement": "Semaglutide is a GLP-1 receptor agonist with approximately 94% structural homology to human GLP-1, engineered for prolonged half-life and high receptor affinity.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-1",
-        "source-2",
-        "source-3",
-        "source-4",
-        "source-14"
+        "s1",
+        "s3"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "approved-product-uses",
-      "statement": "Regulatory materials recognize product-specific semaglutide uses across type 2 diabetes, chronic weight management and cardiovascular risk reduction; the cited 2025 Wegovy label also reports a MASH indication.",
+      "id": "c2",
+      "statement": "Semaglutide is marketed as Ozempic, Rybelsus, and Wegovy, each with distinct formulations and approved indications for type 2 diabetes, cardiovascular risk reduction, chronic kidney disease risk, and chronic weight management.",
       "classification": "institutional_position",
       "source_ids": [
-        "source-3",
-        "source-9",
-        "source-11",
-        "source-12",
-        "source-13",
-        "source-14"
+        "s1",
+        "s2",
+        "s7",
+        "s8",
+        "s10"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "weekly-pharmacologic-profile",
-      "statement": "Structural modification and albumin binding give injectable semaglutide a half-life of roughly one week, permitting once-weekly administration.",
+      "id": "c3",
+      "statement": "Once-weekly subcutaneous semaglutide 2.4 mg plus lifestyle intervention produces an average ~14.9% weight loss over 68 weeks in adults with obesity or overweight without diabetes, far exceeding placebo.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-10"
+        "s4"
       ],
-      "evidence_status": "single_source",
-      "confidence": "medium",
+      "evidence_status": "corroborated",
+      "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "sustain-glycemic-efficacy",
-      "statement": "Across reported SUSTAIN studies, weekly subcutaneous semaglutide commonly reduced HbA1c by approximately 1.5–1.8 percentage points in studied type 2 diabetes populations.",
+      "id": "c4",
+      "statement": "In adults with overweight or obesity and type 2 diabetes, semaglutide 2.4 mg weekly achieves superior and clinically meaningful weight loss (~9.6% vs ~3.4% with placebo) and improved glycemic control compared with placebo.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-4",
-        "source-10",
-        "source-14"
+        "s11"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "step-one-weight-loss",
-      "statement": "In STEP 1, semaglutide 2.4 mg plus lifestyle intervention produced mean weight loss of 14.9% at 68 weeks versus 2.4% with placebo, with more participants reaching 5%, 10% and 15% thresholds.",
+      "id": "c5",
+      "statement": "Once-weekly semaglutide reduces major adverse cardiovascular events by about 26% in high-risk type 2 diabetes patients compared with placebo, primarily via reductions in nonfatal stroke.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-5"
+        "s5",
+        "s8"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "intensive-behavioral-therapy-weight-loss",
-      "statement": "In a randomized trial combining semaglutide with intensive behavioral therapy and an initial low-calorie diet, mean weight loss was 16.0% versus 5.7% with placebo at 68 weeks.",
+      "id": "c6",
+      "statement": "Oral semaglutide has a cardiovascular risk profile noninferior to placebo, with a hazard ratio of 0.79 for major adverse cardiovascular events but no statistically significant superiority.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-15"
+        "s6"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "withdrawal-weight-regain",
-      "statement": "One year after withdrawal, participants previously assigned semaglutide regained about two-thirds of their earlier weight loss and cardiometabolic improvements moved toward baseline.",
+      "id": "c7",
+      "statement": "The most common adverse effects of semaglutide are gastrointestinal symptoms such as nausea, vomiting, diarrhea, constipation, and abdominal pain, occurring in 20–60% of patients depending on dose and indication.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-16"
+        "s1",
+        "s11",
+        "s13",
+        "s14",
+        "s19"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "select-cardiovascular-benefit",
-      "statement": "SELECT reported a 20% relative reduction in the composite of cardiovascular death, non-fatal myocardial infarction and non-fatal stroke among 17,604 adults with preexisting cardiovascular disease and overweight or obesity but without diabetes.",
+      "id": "c8",
+      "statement": "Semaglutide alone carries a low risk of hypoglycemia, but hypoglycemia risk increases significantly when combined with insulin or sulfonylureas.",
       "classification": "verified_finding",
       "source_ids": [
-        "source-6",
-        "source-11",
-        "source-12"
+        "s1",
+        "s9",
+        "s14"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "sustain-six-cardiovascular-benefit",
-      "statement": "SUSTAIN-6 reported a hazard ratio of approximately 0.74 for major adverse cardiovascular events in patients with type 2 diabetes at high cardiovascular risk.",
-      "classification": "verified_finding",
-      "source_ids": [
-        "source-4",
-        "source-10",
-        "source-14"
-      ],
-      "evidence_status": "corroborated",
-      "confidence": "high",
-      "selected_for_script": false
-    },
-    {
-      "id": "common-gastrointestinal-effects",
-      "statement": "Nausea, vomiting, diarrhea, constipation and abdominal pain are common semaglutide adverse effects, often occurring during escalation and sometimes causing discontinuation.",
-      "classification": "verified_finding",
-      "source_ids": [
-        "source-2",
-        "source-3",
-        "source-5",
-        "source-11",
-        "source-13",
-        "source-14",
-        "source-15"
-      ],
-      "evidence_status": "corroborated",
-      "confidence": "high",
-      "selected_for_script": false
-    },
-    {
-      "id": "pancreatitis-causality-uncertain",
-      "statement": "Acute pancreatitis has been reported during semaglutide use, including a fatal case, but the available report does not establish a consistent population-level causal increase.",
-      "classification": "disputed_claim",
-      "source_ids": [
-        "source-7",
-        "source-10"
-      ],
-      "evidence_status": "disputed",
-      "confidence": "medium",
-      "selected_for_script": false
-    },
-    {
-      "id": "gallbladder-and-kidney-risks",
-      "statement": "Regulatory and review sources recognize gallbladder disease and acute kidney injury, particularly with rapid weight loss or volume depletion from gastrointestinal symptoms, as clinically relevant risks.",
-      "classification": "institutional_position",
-      "source_ids": [
-        "source-3",
-        "source-10",
-        "source-11"
-      ],
-      "evidence_status": "corroborated",
-      "confidence": "high",
-      "selected_for_script": false
-    },
-    {
-      "id": "thyroid-warning-and-uncertainty",
-      "statement": "Semaglutide causes thyroid C-cell tumors in rodents, while a generalized causal thyroid-cancer risk in humans remains unproven; labels contraindicate treatment in people with personal or family MTC history or MEN2.",
-      "classification": "institutional_position",
-      "source_ids": [
-        "source-3",
-        "source-10",
-        "source-11",
-        "source-13"
-      ],
-      "evidence_status": "corroborated",
-      "confidence": "high",
-      "selected_for_script": false
-    },
-    {
-      "id": "retinopathy-signal",
-      "statement": "SUSTAIN-6 found more diabetic-retinopathy complications with semaglutide than placebo, with the risk concentrated among patients with pre-existing retinopathy and rapid glycemic reduction.",
-      "classification": "verified_finding",
-      "source_ids": [
-        "source-18"
-      ],
-      "evidence_status": "single_source",
-      "confidence": "high",
-      "selected_for_script": false
-    },
-    {
-      "id": "retinopathy-mechanism-interpretation",
-      "statement": "The retinopathy signal may represent early worsening caused by rapid glycemic improvement rather than direct retinal toxicity, but definitive resolution was not available in the cited review.",
+      "id": "c9",
+      "statement": "Semaglutide has been associated with an increased risk of cholelithiasis and gallbladder disease, consistent with data for GLP-1 receptor agonists as a class and rapid weight loss.",
       "classification": "expert_interpretation",
       "source_ids": [
-        "source-10",
-        "source-18"
+        "s11",
+        "s14",
+        "s19"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "selected_for_script": false
+    },
+    {
+      "id": "c10",
+      "statement": "All semaglutide formulations in the U.S. carry a boxed warning for thyroid C-cell tumors based on rodent findings, but human data have not demonstrated a clear increase in medullary thyroid carcinoma.",
+      "classification": "institutional_position",
+      "source_ids": [
+        "s2",
+        "s14"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "selected_for_script": false
+    },
+    {
+      "id": "c11",
+      "statement": "Rapid improvement in glycemic control with semaglutide can transiently worsen diabetic retinopathy, leading to higher rates of retinopathy complications in some trials.",
+      "classification": "verified_finding",
+      "source_ids": [
+        "s5",
+        "s8",
+        "s14"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "selected_for_script": false
+    },
+    {
+      "id": "c12",
+      "statement": "After withdrawal of semaglutide and structured lifestyle intervention, participants in STEP extension studies regained about two-thirds of their prior weight loss within one year, with cardiometabolic markers trending back toward baseline.",
+      "classification": "verified_finding",
+      "source_ids": [
+        "s12"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "selected_for_script": false
+    },
+    {
+      "id": "c13",
+      "statement": "Injectable semaglutide at 2.4 mg weekly in adolescents with obesity produces a mean 16.1% reduction in BMI over 68 weeks and substantial improvements in cardiometabolic risk factors.",
+      "classification": "verified_finding",
+      "source_ids": [
+        "s13"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "selected_for_script": false
+    },
+    {
+      "id": "c14",
+      "statement": "The ADA recommends GLP-1 receptor agonists, including semaglutide, as preferred agents over insulin for many adults with type 2 diabetes without clear insulin deficiency, especially when cardiovascular risk or obesity is present.",
+      "classification": "institutional_position",
+      "source_ids": [
+        "s9"
+      ],
+      "evidence_status": "single_source",
+      "confidence": "high",
+      "selected_for_script": false
+    },
+    {
+      "id": "c15",
+      "statement": "NICE guidance restricts semaglutide (Wegovy) for obesity management to specific adult subgroups within the NHS, balancing high efficacy against cost and resource constraints.",
+      "classification": "institutional_position",
+      "source_ids": [
+        "s10"
       ],
       "evidence_status": "single_source",
       "confidence": "medium",
       "selected_for_script": false
     },
     {
-      "id": "suicidality-evaluation",
-      "statement": "FDA’s preliminary evaluation found no evidence that GLP-1 receptor agonists cause suicidal thoughts or actions, while acknowledging that the available evidence could not exclude a small risk.",
+      "id": "c16",
+      "statement": "FDA review of suicidality reports has not found evidence that GLP-1 receptor agonists, including semaglutide, cause suicidal thoughts or actions, but cannot rule out a small risk and recommends monitoring.",
       "classification": "institutional_position",
       "source_ids": [
-        "source-17"
+        "s15"
       ],
-      "evidence_status": "corroborated",
-      "confidence": "high",
+      "evidence_status": "single_source",
+      "confidence": "medium",
       "selected_for_script": false
     },
     {
-      "id": "pregnancy-position",
-      "statement": "Regulatory materials advise against semaglutide use during pregnancy, and the cited Wegovy information advises discontinuation at least two months before a planned pregnancy.",
-      "classification": "institutional_position",
-      "source_ids": [
-        "source-3",
-        "source-11",
-        "source-13"
-      ],
-      "evidence_status": "corroborated",
-      "confidence": "high",
-      "selected_for_script": false
-    },
-    {
-      "id": "preclinical-expanded-mechanisms",
-      "statement": "Proposed adipose-browning, mitochondrial-biogenesis, anti-inflammatory and neuroprotective effects are supported mainly by preclinical or early translational evidence and are not established human clinical outcomes.",
+      "id": "c17",
+      "statement": "Clinical and expert commentary suggests GLP-1 medications may pose particular risks for people with current or past eating disorders, potentially worsening restrictive behaviors, malnutrition, and obsessive focus on weight.",
       "classification": "expert_interpretation",
       "source_ids": [
-        "source-1",
-        "source-10"
+        "s18"
+      ],
+      "evidence_status": "single_source",
+      "confidence": "medium",
+      "selected_for_script": false
+    },
+    {
+      "id": "c18",
+      "statement": "Novo Nordisk’s sales of obesity-care products, largely driven by semaglutide (Wegovy), grew by more than 25% in 2025, reflecting massive commercial success and strong financial incentives.",
+      "classification": "verified_finding",
+      "source_ids": [
+        "s17"
       ],
       "evidence_status": "single_source",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "alzheimer-pcos-use-not-established",
-      "statement": "Alzheimer’s disease and PCOS are investigational or speculative semaglutide applications rather than established labeled indications in the cited regulatory materials.",
-      "classification": "institutional_position",
+      "id": "c19",
+      "statement": "Semaglutide use in the U.S. increased nearly 40-fold over five years, with around 1.7% of Americans prescribed a semaglutide medication in 2023, contributing to nationwide shortages.",
+      "classification": "verified_finding",
       "source_ids": [
-        "source-3",
-        "source-10",
-        "source-11"
+        "s16"
+      ],
+      "evidence_status": "single_source",
+      "confidence": "medium",
+      "selected_for_script": false
+    },
+    {
+      "id": "c20",
+      "statement": "Mechanistic hypotheses about semaglutide’s effects on adipose tissue browning, mitochondrial biogenesis, and skeletal muscle preservation are largely based on preclinical data and not yet confirmed in humans.",
+      "classification": "expert_interpretation",
+      "source_ids": [
+        "s3"
+      ],
+      "evidence_status": "single_source",
+      "confidence": "medium",
+      "selected_for_script": false
+    },
+    {
+      "id": "c21",
+      "statement": "Semaglutide has an overall favorable risk–benefit profile in patients with type 2 diabetes and obesity, with mild-to-moderate gastrointestinal disturbances and cholelithiasis risk offset by strong metabolic and cardiovascular benefits.",
+      "classification": "expert_interpretation",
+      "source_ids": [
+        "s1",
+        "s5",
+        "s11",
+        "s14"
       ],
       "evidence_status": "corroborated",
       "confidence": "high",
       "selected_for_script": false
     },
     {
-      "id": "wegovy-pill-industry-claim",
-      "statement": "Novo Nordisk’s 2025 annual report describes a Wegovy pill as the world’s first and only once-daily oral GLP-1 therapy for weight loss and frames its launch as record-breaking.",
-      "classification": "institutional_position",
+      "id": "c22",
+      "statement": "The history of GLP-1 receptor agonists shows a progression from short-acting, multi-dose agents to once-daily and once-weekly formulations, culminating in semaglutide and newer dual agonists with greater efficacy.",
+      "classification": "verified_finding",
       "source_ids": [
-        "source-19"
+        "s20"
+      ],
+      "evidence_status": "single_source",
+      "confidence": "high",
+      "selected_for_script": false
+    },
+    {
+      "id": "c23",
+      "statement": "Public and media narratives frequently oversimplify semaglutide as a miracle weight-loss drug, downplaying its chronic nature, side-effects, and limited long-term safety data.",
+      "classification": "public_perception",
+      "source_ids": [
+        "s16",
+        "s18",
+        "s19"
       ],
       "evidence_status": "corroborated",
       "confidence": "medium",
       "selected_for_script": false
     },
     {
-      "id": "short-term-reset-public-claim",
-      "statement": "Semaglutide can be used briefly as a permanent body-weight reset without substantial risk of regain after stopping.",
-      "classification": "disputed_claim",
-      "source_ids": [],
-      "evidence_status": "unsupported",
-      "confidence": "low",
+      "id": "c24",
+      "statement": "Weight regain after semaglutide discontinuation suggests that the drug shifts energy-balance equilibrium while on therapy rather than permanently resetting metabolism.",
+      "classification": "expert_interpretation",
+      "source_ids": [
+        "s12",
+        "s3"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
       "selected_for_script": false
     },
     {
-      "id": "semaglutide-cure-all-public-claim",
-      "statement": "Semaglutide is a broadly applicable cure-all that reverses aging, treats neurodegeneration and is safe and effective for everyone.",
-      "classification": "disputed_claim",
-      "source_ids": [],
-      "evidence_status": "unsupported",
-      "confidence": "low",
+      "id": "c25",
+      "statement": "Real-world concerns about access, cost, and shortages raise equity issues, as high-priced semaglutide may be more accessible to affluent or well-insured patients than to marginalized communities disproportionately affected by obesity and diabetes.",
+      "classification": "expert_interpretation",
+      "source_ids": [
+        "s10",
+        "s16",
+        "s17"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
       "selected_for_script": false
     }
   ],
   "perspectives": [
     {
-      "id": "fda-product-labeling-position",
-      "speaker_name": "U.S. Food and Drug Administration",
+      "id": "p1",
+      "speaker_name": "U.S. Food and Drug Administration (FDA)",
       "speaker_type": "institution",
-      "role": "U.S. medicines regulator",
-      "position": "Semaglutide products have formulation-specific indications and dosing requirements, with boxed thyroid warnings, contraindications and monitoring duties that constrain their use.",
+      "role": "Regulator",
+      "position": "Semaglutide is an effective GLP-1 receptor agonist for type 2 diabetes and obesity with acceptable safety when used under labeled indications; carries boxed warnings and requires monitoring for depression and suicidal ideation.",
       "source_ids": [
-        "source-3",
-        "source-11",
-        "source-12",
-        "source-13"
+        "s2",
+        "s5",
+        "s6",
+        "s7",
+        "s10",
+        "s15"
       ],
       "statement_kind": "official_statement",
       "confidence": "high",
-      "bias_notes": "Authoritative for U.S. regulatory status and labeling, but labels summarize rather than fully reproduce the underlying evidence.",
+      "bias_notes": "Regulatory perspective prioritizing public safety and legal clarity; may be conservative in interpreting emerging risks.",
       "selected_for_script": false
     },
     {
-      "id": "ema-benefit-risk-position",
-      "speaker_name": "European Medicines Agency",
+      "id": "p2",
+      "speaker_name": "European Medicines Agency (EMA)",
       "speaker_type": "institution",
-      "role": "European medicines regulator",
-      "position": "Ozempic and Wegovy provide favorable benefit-risk profiles for their authorized populations when used within specified indications and alongside appropriate lifestyle or diabetes management.",
+      "role": "EU Regulator",
+      "position": "Ozempic effectively lowers HbA1c, produces beneficial weight loss, and reduces heart attack and stroke risk in type 2 diabetes, with manageable GI side-effects and a need to investigate retinopathy worsening.",
       "source_ids": [
-        "source-9",
-        "source-14"
+        "s8"
       ],
       "statement_kind": "official_statement",
       "confidence": "high",
-      "bias_notes": "Authoritative for European authorization; living EPAR content may evolve.",
+      "bias_notes": "Focused on EU authorization; balances efficacy with safety and pharmacovigilance requirements.",
       "selected_for_script": false
     },
     {
-      "id": "cleveland-clinic-patient-guidance",
-      "speaker_name": "Cleveland Clinic",
+      "id": "p3",
+      "speaker_name": "American Diabetes Association (ADA)",
       "speaker_type": "institution",
-      "role": "Clinical institution providing patient education",
-      "position": "GLP-1 agonists can lower blood sugar and promote weight loss and may offer cardiovascular, kidney and metabolic benefits, while requiring attention to gastrointestinal and uncommon serious adverse effects.",
+      "role": "Professional guideline body",
+      "position": "GLP-1 receptor agonists, including semaglutide, should be preferred over insulin for many adults with type 2 diabetes without insulin deficiency, especially in the presence of obesity or cardiovascular risk, due to superior weight and CV outcomes and lower hypoglycemia risk.",
       "source_ids": [
-        "source-2"
+        "s9"
+      ],
+      "statement_kind": "official_statement",
+      "confidence": "high",
+      "bias_notes": "Evidence-based but influenced by expert consensus and available trial data; may emphasize population-level benefits.",
+      "selected_for_script": false
+    },
+    {
+      "id": "p4",
+      "speaker_name": "NICE (UK)",
+      "speaker_type": "institution",
+      "role": "Health technology assessor",
+      "position": "Semaglutide (Wegovy) is recommended for managing overweight and obesity in specific adult populations within the NHS when cost-effectiveness thresholds are met, recognizing both high efficacy and budgetary constraints.",
+      "source_ids": [
+        "s10"
       ],
       "statement_kind": "official_statement",
       "confidence": "medium",
-      "bias_notes": "Accessible class-level synthesis may blur differences between individual GLP-1 agents and evidence strengths.",
+      "bias_notes": "Strong emphasis on cost-effectiveness and national resource allocation; more restrictive than some other systems.",
       "selected_for_script": false
     },
     {
-      "id": "step-select-researchers",
-      "speaker_name": "STEP and SELECT trial investigators",
+      "id": "p5",
+      "speaker_name": "J.P.H. Wilding and STEP investigators",
       "speaker_type": "researcher",
-      "role": "Investigators of randomized semaglutide efficacy and cardiovascular-outcomes trials",
-      "position": "Semaglutide produces substantial weight loss in selected populations and reduces major cardiovascular events in high-risk adults without diabetes.",
+      "role": "Clinical trialist",
+      "position": "Once-weekly high-dose semaglutide plus lifestyle intervention leads to substantial, sustained, clinically relevant weight loss and improvements in cardiometabolic risk factors in adults with overweight/obesity, without diabetes.",
       "source_ids": [
-        "source-5",
-        "source-6",
-        "source-15"
+        "s4",
+        "s12"
       ],
       "statement_kind": "research_finding",
       "confidence": "high",
-      "bias_notes": "Findings apply to defined trial populations and protocols; the report states that major programs received manufacturer support.",
+      "bias_notes": "Trial-based perspective; may not fully capture real-world adherence, discontinuation, and diverse populations.",
       "selected_for_script": false
     },
     {
-      "id": "withdrawal-researchers",
-      "speaker_name": "STEP 1 extension investigators",
+      "id": "p6",
+      "speaker_name": "S.P. Marso and SUSTAIN-6 investigators",
       "speaker_type": "researcher",
-      "role": "Investigators studying outcomes after treatment withdrawal",
-      "position": "Substantial weight regain and regression of cardiometabolic improvements after discontinuation support a chronic-treatment interpretation of obesity pharmacotherapy.",
+      "role": "Cardiovascular outcomes trialist",
+      "position": "In high-risk type 2 diabetes patients, semaglutide significantly reduces major adverse cardiovascular events compared with placebo, confirming noninferiority and suggesting CV benefit.",
       "source_ids": [
-        "source-16"
+        "s5"
       ],
       "statement_kind": "research_finding",
       "confidence": "high",
-      "bias_notes": "The extension reflects a selected trial cohort and one year of post-withdrawal follow-up.",
+      "bias_notes": "Cardiology-focused; emphasizes CV endpoints, may underemphasize retinopathy and rare events.",
       "selected_for_script": false
     },
     {
-      "id": "mechanistic-reviewers",
-      "speaker_name": "Semaglutide mechanistic review authors",
+      "id": "p7",
+      "speaker_name": "M. Husain and PIONEER-6 investigators",
       "speaker_type": "researcher",
-      "role": "Researchers synthesizing mechanistic and translational evidence",
-      "position": "Semaglutide may have anti-inflammatory, mitochondrial, adipose and neuroprotective effects, but many such findings remain preclinical and require human confirmation.",
+      "role": "Clinical trialist",
+      "position": "Oral semaglutide is cardiovascularly safe, noninferior to placebo regarding major adverse cardiovascular events, with fewer deaths and serious adverse events in the semaglutide arm.",
       "source_ids": [
-        "source-1",
-        "source-10"
+        "s6"
       ],
-      "statement_kind": "expert_opinion",
-      "confidence": "medium",
-      "bias_notes": "Review conclusions depend on heterogeneous underlying studies and can amplify mechanistic plausibility beyond demonstrated clinical outcomes.",
+      "statement_kind": "research_finding",
+      "confidence": "high",
+      "bias_notes": "Oral formulation focus; neutral on superiority and CV benefit.",
       "selected_for_script": false
     },
     {
-      "id": "retinopathy-reviewers",
-      "speaker_name": "Semaglutide retinopathy review authors",
+      "id": "p8",
+      "speaker_name": "M.M. Smits and co-authors",
       "speaker_type": "expert",
-      "role": "Clinical interpreters of the SUSTAIN-6 ocular safety signal",
-      "position": "Retinopathy risk appears conditional on pre-existing disease and rapid HbA1c reduction, but direct toxicity versus early worsening from glycemic improvement remains unresolved.",
+      "role": "Safety reviewer",
+      "position": "Semaglutide’s safety profile is broadly similar to other GLP-1 receptor agonists, with mostly mild-to-moderate GI side-effects, increased cholelithiasis risk, and no clear signals for pancreatic or thyroid cancer, but definitive conclusions on rare events remain premature.",
       "source_ids": [
-        "source-18"
+        "s14"
       ],
       "statement_kind": "expert_opinion",
-      "confidence": "medium",
-      "bias_notes": "Interpretation is based on trial subgroup and post hoc evidence pending more definitive dedicated evidence.",
+      "confidence": "high",
+      "bias_notes": "Synthesis of trial data; cautious about rare-event inference and class labeling.",
       "selected_for_script": false
     },
     {
-      "id": "novo-nordisk-commercial-position",
+      "id": "p9",
       "speaker_name": "Novo Nordisk",
       "speaker_type": "industry",
-      "role": "Semaglutide manufacturer",
-      "position": "The company frames semaglutide products and oral delivery expansion as major innovations and commercial advances, including claims about the Wegovy pill’s uniqueness and launch.",
+      "role": "Manufacturer",
+      "position": "Semaglutide-based products are key drivers of financial growth, reflecting their success in addressing unmet needs in obesity and cardiometabolic disease.",
       "source_ids": [
-        "source-19"
+        "s17"
       ],
       "statement_kind": "marketing",
-      "confidence": "high",
-      "bias_notes": "The manufacturer has direct commercial incentives; product-superiority and market-position claims require independent corroboration.",
+      "confidence": "medium",
+      "bias_notes": "Commercial incentives to present products in a highly favorable light and emphasize growth.",
       "selected_for_script": false
     },
     {
-      "id": "trial-participant-experience",
-      "speaker_name": "Participants in STEP and related obesity trials",
-      "speaker_type": "affected_community",
-      "role": "People receiving semaglutide or placebo within structured trials",
-      "position": "Structured trial measures indicate improved physical functioning for some participants, reduced appetite or craving for some, and treatment discontinuation by others because of gastrointestinal effects or treatment fit.",
+      "id": "p10",
+      "speaker_name": "SunCloud Health clinicians (e.g., Kim Dennis, Cynthia Bulik)",
+      "speaker_type": "critic",
+      "role": "Eating-disorder specialists",
+      "position": "GLP-1 medications like semaglutide may pose significant risks for people with current or past eating disorders by suppressing appetite, reinforcing restrictive patterns, and intensifying focus on weight, and should be used cautiously with close mental-health monitoring.",
       "source_ids": [
-        "source-5",
-        "source-15"
+        "s18"
+      ],
+      "statement_kind": "expert_opinion",
+      "confidence": "medium",
+      "bias_notes": "Clinically grounded but based on limited empirical data; conservative due to patient vulnerability.",
+      "selected_for_script": false
+    },
+    {
+      "id": "p11",
+      "speaker_name": "GoodRx clinical content team",
+      "speaker_type": "industry",
+      "role": "Consumer medication educators",
+      "position": "Semaglutide commonly causes GI side-effects and can, though rarely, lead to serious conditions like pancreatitis, gallbladder disease, kidney damage, gastroparesis, and intestinal blockage, warranting patient education and monitoring.",
+      "source_ids": [
+        "s19"
+      ],
+      "statement_kind": "expert_opinion",
+      "confidence": "medium",
+      "bias_notes": "Consumer-oriented perspective; may emphasize side-effects to support safe use but relies on secondary data.",
+      "selected_for_script": false
+    },
+    {
+      "id": "p12",
+      "speaker_name": "AJMC health-policy commentators",
+      "speaker_type": "critic",
+      "role": "Policy analyst",
+      "position": "Rapidly rising demand for semaglutide driven by weight-loss use has led to persistent shortages, complicating care for patients with diabetes and obesity, and raises concerns about prioritization and health-system planning.",
+      "source_ids": [
+        "s16"
+      ],
+      "statement_kind": "public_commentary",
+      "confidence": "medium",
+      "bias_notes": "Policy-focused; may emphasize systemic challenges and tensions more than individual clinical outcomes.",
+      "selected_for_script": false
+    },
+    {
+      "id": "p13",
+      "speaker_name": "Patients using semaglutide for diabetes and obesity",
+      "speaker_type": "affected_community",
+      "role": "Lived-experience voices",
+      "position": "Report dramatic improvements in weight, glycemic control, and quality of life, alongside challenging GI symptoms, emotional adjustments, and distress when therapy is interrupted and weight returns.",
+      "source_ids": [
+        "s4",
+        "s12",
+        "s19"
       ],
       "statement_kind": "testimony",
       "confidence": "medium",
-      "bias_notes": "Experiences are mediated through trial instruments and retention data rather than direct, diverse qualitative testimony.",
+      "bias_notes": "Anecdotal and selective; may overrepresent strong positive or negative experiences.",
       "selected_for_script": false
     },
     {
-      "id": "historical-regulatory-expansion",
-      "speaker_name": "Semaglutide regulatory record",
-      "speaker_type": "historical",
-      "role": "Chronology of product authorization and indication expansion",
-      "position": "Semaglutide evolved from a type 2 diabetes therapy into product-specific obesity and cardiovascular prevention uses as trial evidence accumulated.",
+      "id": "p14",
+      "speaker_name": "Patients with eating-disorder histories exposed to semaglutide",
+      "speaker_type": "affected_community",
+      "role": "Lived-experience voices",
+      "position": "Some describe worsening restrictive behaviors, heightened anxiety about food, and malnourishment risk when appetite is pharmacologically suppressed.",
       "source_ids": [
-        "source-3",
-        "source-6",
-        "source-11",
-        "source-12",
-        "source-14"
+        "s18"
       ],
-      "statement_kind": "official_statement",
+      "statement_kind": "lived_experience",
+      "confidence": "low",
+      "bias_notes": "Small, self-selected group; experiences may not generalize but highlight important risk signals.",
+      "selected_for_script": false
+    },
+    {
+      "id": "p15",
+      "speaker_name": "GLP-1 RA historians (e.g., Darwish)",
+      "speaker_type": "historical",
+      "role": "Medical historian",
+      "position": "Semaglutide represents the culmination of decades of GLP-1 RA development, moving from short-acting incretin mimetics to long-acting agents with cardiovascular benefit and obesity indications.",
+      "source_ids": [
+        "s20"
+      ],
+      "statement_kind": "research_finding",
       "confidence": "high",
-      "bias_notes": "The record is incomplete because the supplied sources do not provide a single reconciled chronology for all jurisdictions and formulations.",
+      "bias_notes": "Retrospective synthesis; may understate ongoing development of newer agents.",
       "selected_for_script": false
     }
   ],
   "contradictions": [
     {
-      "id": "short-term-fix-versus-chronic-treatment",
+      "id": "con1",
       "claim_ids": [
-        "withdrawal-weight-regain",
-        "short-term-reset-public-claim"
+        "c3",
+        "c12",
+        "c24"
       ],
-      "summary": "The unsupported public conception of semaglutide as a temporary permanent reset conflicts with observed weight regain and regression of cardiometabolic benefits after withdrawal.",
+      "summary": "Semaglutide produces large, sustained weight loss while on therapy, yet most of this weight loss is regained after discontinuation, challenging narratives that present it as a permanent cure for obesity.",
       "requires_resolution": true,
       "resolution": null
     },
     {
-      "id": "proven-outcomes-versus-mechanistic-expansion",
+      "id": "con2",
       "claim_ids": [
-        "preclinical-expanded-mechanisms",
-        "semaglutide-cure-all-public-claim"
+        "c5",
+        "c11"
       ],
-      "summary": "Robust clinical evidence for metabolic and cardiovascular outcomes is sometimes rhetorically extended to unproven anti-aging, neurodegenerative or universal-benefit claims.",
+      "summary": "Semaglutide reduces major adverse cardiovascular events but is associated with higher rates of diabetic retinopathy complications in some trials, creating tension between systemic cardiovascular benefit and local microvascular risk.",
       "requires_resolution": true,
       "resolution": null
     },
     {
-      "id": "pancreatitis-case-signal-versus-population-causality",
+      "id": "con3",
       "claim_ids": [
-        "pancreatitis-causality-uncertain",
-        "common-gastrointestinal-effects"
+        "c16",
+        "c17"
       ],
-      "summary": "A severe fatal pancreatitis case demonstrates possibility but does not establish incidence or causality, while larger evidence summarized in the report does not show a consistent major population-level increase.",
+      "summary": "FDA’s evaluation has not found evidence that GLP-1 receptor agonists cause suicidal thoughts or actions, whereas eating-disorder specialists warn about potential mental-health and eating-disorder harms, particularly in vulnerable patients.",
       "requires_resolution": true,
       "resolution": null
     },
     {
-      "id": "retinopathy-event-versus-causal-mechanism",
+      "id": "con4",
       "claim_ids": [
-        "retinopathy-signal",
-        "retinopathy-mechanism-interpretation"
+        "c21",
+        "c9",
+        "c10"
       ],
-      "summary": "The increased retinopathy complications are observed evidence, but whether semaglutide directly harms the retina or rapid glycemic improvement produces early worsening remains unresolved.",
+      "summary": "Expert reviews describe semaglutide’s overall risk–benefit profile as favorable, yet safety discussions emphasize increased cholelithiasis risk and boxed warnings for thyroid tumors, which may alarm patients.",
       "requires_resolution": true,
       "resolution": null
     },
     {
-      "id": "suicidality-narrative-versus-fda-evaluation",
+      "id": "con5",
       "claim_ids": [
-        "suicidality-evaluation",
-        "semaglutide-cure-all-public-claim"
+        "c14",
+        "c25"
       ],
-      "summary": "Public narratives described in the report include categorical psychiatric-harm claims, whereas FDA reported no detected causal evidence while retaining uncertainty about a small risk.",
-      "requires_resolution": true,
-      "resolution": null
-    },
-    {
-      "id": "rybelsus-initial-approval-date-discrepancy",
-      "claim_ids": [
-        "approved-product-uses",
-        "weekly-pharmacologic-profile"
-      ],
-      "summary": "The report says the secondary approval-history source dates Rybelsus approval to 2019, while the cited 2024 FDA label reportedly lists an initial U.S. approval date of 2017; the reason is not established.",
+      "summary": "Guidelines promote semaglutide as a preferred therapy for many adults with type 2 diabetes, but access and cost issues mean that marginalized populations may not benefit equally, potentially widening health disparities.",
       "requires_resolution": true,
       "resolution": null
     }
   ],
   "gaps": [
     {
-      "id": "affected-community-primary-voices",
+      "id": "g1",
+      "category": "scope",
+      "description": "Limited long-term (>10 year) data on continuous semaglutide use, including cumulative effects on bone health, neurocognition, rare cancers, and metabolic adaptation.",
+      "severity": "high"
+    },
+    {
+      "id": "g2",
+      "category": "missing_source",
+      "description": "Sparse empirical research on GLP-1 receptor agonists in people with current or past eating disorders, leading to reliance on expert opinion and anecdotal reports.",
+      "severity": "high"
+    },
+    {
+      "id": "g3",
       "category": "missing_voice",
-      "description": "The catalog contains no dedicated primary qualitative source representing diverse patients, disabled people, adolescents, marginalized communities, fat-acceptance perspectives or people unable to access treatment.",
-      "severity": "high"
-    },
-    {
-      "id": "access-pricing-and-shortage-evidence",
-      "category": "missing_source",
-      "description": "Claims about high prices, insurance restrictions, shortages, off-label competition, inequitable access and supply-chain effects lack dedicated pricing, payer, utilization or supply sources in the catalog.",
-      "severity": "high"
-    },
-    {
-      "id": "industry-sponsorship-detail",
-      "category": "authority",
-      "description": "The report asserts extensive Novo Nordisk sponsorship and influence, but the dossier lacks trial disclosures or independent analyses sufficient to evaluate specific design, comparator or publication biases.",
+      "description": "Underrepresentation of adolescents from diverse racial and ethnic backgrounds and socioeconomically disadvantaged groups in STEP TEENS and other obesity trials.",
       "severity": "medium"
     },
     {
-      "id": "long-term-safety-follow-up",
-      "category": "scope",
-      "description": "The supplied evidence does not resolve lifetime cancer, vision, pancreatic, renal, neuropsychiatric or developmental outcomes.",
-      "severity": "high"
+      "id": "g4",
+      "category": "missing_voice",
+      "description": "Limited published qualitative research capturing lived experiences of semaglutide users across different cultures, genders, and social classes.",
+      "severity": "medium"
     },
     {
-      "id": "underrepresented-subgroups",
-      "category": "scope",
-      "description": "Evidence is insufficient for several groups described as underrepresented or excluded, including people with severe mental illness, social instability, advanced kidney disease, very old age, disabilities and diverse ethnic backgrounds.",
-      "severity": "high"
-    },
-    {
-      "id": "preclinical-human-translation",
-      "category": "missing_source",
-      "description": "Human trials with direct biomarker, imaging or clinical endpoints are missing for adipose browning, mitochondrial biogenesis, neuroprotection, Alzheimer’s disease and PCOS claims.",
-      "severity": "high"
-    },
-    {
-      "id": "pancreatitis-causality",
-      "category": "contradiction",
-      "description": "Case evidence and biological plausibility are not enough to determine whether semaglutide independently increases pancreatitis risk or which subgroups are most vulnerable.",
-      "severity": "high"
-    },
-    {
-      "id": "thyroid-cancer-causality",
-      "category": "contradiction",
-      "description": "Rodent findings, precautionary labels and reported human observational signals are not reconciled by sufficiently long, independently corroborated human follow-up.",
-      "severity": "high"
-    },
-    {
-      "id": "retinopathy-resolution",
-      "category": "contradiction",
-      "description": "The report identifies a dedicated FOCUS trial as necessary for resolving the retinopathy question, but no results are present in the catalog.",
-      "severity": "high"
-    },
-    {
-      "id": "suicidality-update-needed",
+      "id": "g5",
       "category": "freshness",
-      "description": "The cited FDA suicidality assessment is explicitly preliminary and from 2024; later regulatory conclusions are not included.",
-      "severity": "high"
-    },
-    {
-      "id": "undated-source-metadata",
-      "category": "freshness",
-      "description": "Publication dates are absent from the supplied report for several research, institutional and web sources, limiting formal freshness assessment.",
+      "description": "Existing comprehensive safety reviews predate the most recent large-scale obesity and cardiovascular trials, leaving synthesis of newer data incomplete.",
       "severity": "medium"
     },
     {
-      "id": "rybelsus-chronology",
+      "id": "g6",
+      "category": "scope",
+      "description": "Insufficient real-world data on patterns of semaglutide discontinuation, reasons for stopping, and long-term weight trajectories across diverse health systems.",
+      "severity": "medium"
+    },
+    {
+      "id": "g7",
       "category": "authority",
-      "description": "The reported 2019 approval history conflicts with a reported 2017 initial-approval date in FDA labeling and requires reconciliation using authoritative approval records.",
+      "description": "Few independent, non-industry-funded trials examining semaglutide specifically for mental-health or eating-disorder outcomes.",
       "severity": "medium"
     },
     {
-      "id": "wegovy-pill-independent-corroboration",
-      "category": "missing_source",
-      "description": "The catalog supplies only Novo Nordisk’s annual report for claims about the Wegovy pill’s regulatory status, uniqueness, trial maturity and launch performance.",
-      "severity": "high"
+      "id": "g8",
+      "category": "contradiction",
+      "description": "Unresolved tension between framing obesity as a chronic disease requiring pharmacologic treatment and critiques that worry about over-medicalization and social determinants of health.",
+      "severity": "medium"
+    }
+  ],
+  "angle_candidates": [
+    {
+      "id": "a1",
+      "title": "Semaglutide as a Chronic Tool, Not a Cure",
+      "hook": "The same drug hailed as a miracle weight-loss shot quietly produces major weight regain once you stop taking it.",
+      "central_question": "How does semaglutide reshape weight and metabolism while on therapy, and why do most benefits fade after discontinuation?",
+      "why_interesting": "It challenges popular narratives and helps viewers understand chronicity, expectations, and the biology of weight regulation.",
+      "angle_kind": "tradeoff",
+      "lens_ids": [
+        "core_reality",
+        "tradeoffs",
+        "controversies",
+        "current_change",
+        "practical_value",
+        "institutions",
+        "researchers",
+        "experts",
+        "affected_communities",
+        "public_discourse"
+      ],
+      "source_ids": [
+        "s4",
+        "s11",
+        "s12",
+        "s3",
+        "s14",
+        "s19"
+      ],
+      "claim_ids": [
+        "c3",
+        "c4",
+        "c12",
+        "c24"
+      ],
+      "perspective_ids": [
+        "p5",
+        "p8",
+        "p13"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 70,
+        "importance": 95,
+        "evidence_strength": 100,
+        "human_stakes": 90,
+        "tension": 95,
+        "audience_relevance": 95,
+        "visual_potential": 85,
+        "timeliness": 90
+      },
+      "editorial_score": 91.0,
+      "counterargument": "Some individuals may maintain substantial weight loss after stopping semaglutide by intensifying lifestyle changes, suggesting the drug can be a temporary catalyst rather than a permanent crutch.",
+      "unknowns": "How different subgroups (e.g., younger vs older patients, varying baseline BMI) fare in long-term post-discontinuation trajectories, and whether combination strategies can sustain weight loss.",
+      "risk_notes": "Overemphasis on weight regain could discourage appropriate use among those who would benefit; messaging must balance realism with hope.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
     },
     {
-      "id": "mash-primary-trial-evidence",
-      "category": "missing_source",
-      "description": "The cited Wegovy label supports the reported MASH indication, but the catalog does not identify the original peer-reviewed pivotal MASH trial used to quantify efficacy and uncertainty.",
-      "severity": "medium"
+      "id": "a15",
+      "title": "Designing a Balanced Semaglutide Video: What We Must Disclose",
+      "hook": "Any honest educational video about semaglutide has to show both the life-changing successes and the unresolved questions.",
+      "central_question": "Which contradictions, gaps, and trade-offs should an educational video about semaglutide explicitly disclose rather than try to resolve?",
+      "why_interesting": "Meta-angle guiding content creators to ethical, evidence-based storytelling.",
+      "angle_kind": "practical",
+      "lens_ids": [
+        "core_reality",
+        "controversies",
+        "overlooked_facts",
+        "tradeoffs",
+        "visual_potential",
+        "institutions",
+        "researchers",
+        "experts",
+        "critics",
+        "affected_communities",
+        "public_discourse"
+      ],
+      "source_ids": [
+        "s4",
+        "s5",
+        "s12",
+        "s14",
+        "s15",
+        "s18",
+        "s16",
+        "s8",
+        "s19",
+        "s10",
+        "s17",
+        "s2",
+        "s6",
+        "s7"
+      ],
+      "claim_ids": [
+        "c3",
+        "c5",
+        "c12",
+        "c16",
+        "c17",
+        "c23",
+        "c25"
+      ],
+      "perspective_ids": [
+        "p1",
+        "p5",
+        "p8",
+        "p10",
+        "p13"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 75,
+        "importance": 95,
+        "evidence_strength": 100,
+        "human_stakes": 90,
+        "tension": 85,
+        "audience_relevance": 95,
+        "visual_potential": 70,
+        "timeliness": 90
+      },
+      "editorial_score": 90.0,
+      "counterargument": "Some audiences and platforms prefer simpler narratives and may resist explicit uncertainty and contradiction.",
+      "unknowns": "How viewers respond to disclosed uncertainty and whether it enhances trust or causes confusion.",
+      "risk_notes": "Balance clarity and nuance; avoid paralysis-by-ambiguity.",
+      "overclaiming_risk": "low",
+      "selected_for_story": false
     },
     {
-      "id": "kidney-outcomes-primary-evidence",
-      "category": "missing_source",
-      "description": "Kidney-benefit claims rely on class-level institutional guidance and reviews rather than a clearly identified dedicated primary semaglutide renal-outcomes trial.",
-      "severity": "medium"
+      "id": "a6",
+      "title": "Eat Less, At What Cost? Semaglutide and Eating Disorders",
+      "hook": "A drug that quiets hunger may be a lifeline for some—and a dangerous trigger for others.",
+      "central_question": "How might semaglutide affect people with current or past eating disorders, and what safeguards are needed in clinical practice?",
+      "why_interesting": "It addresses a sensitive, understudied area where mental health, metabolism, and social pressures intersect.",
+      "angle_kind": "controversy",
+      "lens_ids": [
+        "controversies",
+        "human_stories",
+        "anomalies_and_exceptions",
+        "critics",
+        "affected_communities",
+        "experts",
+        "public_discourse"
+      ],
+      "source_ids": [
+        "s18",
+        "s15"
+      ],
+      "claim_ids": [
+        "c16",
+        "c17"
+      ],
+      "perspective_ids": [
+        "p10",
+        "p14"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 85,
+        "importance": 90,
+        "evidence_strength": 100,
+        "human_stakes": 95,
+        "tension": 90,
+        "audience_relevance": 80,
+        "visual_potential": 70,
+        "timeliness": 85
+      },
+      "editorial_score": 89.0,
+      "counterargument": "Most trial and observational data do not show increased suicidality or severe psychiatric harm in general populations using semaglutide.",
+      "unknowns": "True prevalence and nature of eating-disorder complications in broader, more diverse patient populations using GLP-1 RAs.",
+      "risk_notes": "Must avoid stigmatizing patients with eating disorders or implying that semaglutide is inherently unsafe; emphasize uncertainty and individualized care.",
+      "overclaiming_risk": "high",
+      "selected_for_story": false
     },
     {
-      "id": "independent-corroboration-of-consequential-claims",
-      "category": "authority",
-      "description": "Several consequential numerical claims, including STEP withdrawal effects and the retinopathy hazard, are represented by a single catalog source and would benefit from independent corroboration.",
-      "severity": "medium"
+      "id": "a5",
+      "title": "Shortage Nation: Who Gets Semaglutide When Demand Outstrips Supply?",
+      "hook": "As celebrities and social media drive a weight-loss boom, patients with diabetes face pharmacy shelves that are suddenly empty.",
+      "central_question": "What factors created semaglutide shortages, and how are health systems deciding who should get limited doses?",
+      "why_interesting": "It surfaces equity, policy, and ethical questions beyond individual clinical decisions, making invisible rationing visible.",
+      "angle_kind": "failure",
+      "lens_ids": [
+        "failures_and_unintended_consequences",
+        "power_and_incentives",
+        "money_and_business",
+        "current_change",
+        "institutions",
+        "industry",
+        "critics",
+        "public_discourse"
+      ],
+      "source_ids": [
+        "s16",
+        "s17",
+        "s10"
+      ],
+      "claim_ids": [
+        "c18",
+        "c19",
+        "c25"
+      ],
+      "perspective_ids": [
+        "p9",
+        "p12"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 75,
+        "importance": 90,
+        "evidence_strength": 100,
+        "human_stakes": 85,
+        "tension": 90,
+        "audience_relevance": 85,
+        "visual_potential": 70,
+        "timeliness": 95
+      },
+      "editorial_score": 87.8,
+      "counterargument": "Supply constraints may ease over time, making shortages a transient rather than enduring story.",
+      "unknowns": "Future manufacturing capacity and policy interventions to prioritize high-need populations.",
+      "risk_notes": "Must avoid vilifying individual patients or groups; focus on systems and incentives.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a12",
+      "title": "Youth on Semaglutide: Promise and Unknowns in Adolescent Obesity Care",
+      "hook": "Teens on once-weekly injections are losing unprecedented amounts of weight—but the long-term story is unwritten.",
+      "central_question": "What do existing trials tell us about semaglutide’s benefits and risks in adolescents with obesity, and what uncertainties remain?",
+      "why_interesting": "Adolescent use raises unique developmental, psychological, and ethical questions, engaging parents, clinicians, and policymakers.",
+      "angle_kind": "future_signal",
+      "lens_ids": [
+        "future_signals",
+        "human_stories",
+        "tradeoffs",
+        "researchers",
+        "experts",
+        "institutions",
+        "affected_communities"
+      ],
+      "source_ids": [
+        "s13",
+        "s1",
+        "s2",
+        "s5",
+        "s6",
+        "s7",
+        "s10",
+        "s15",
+        "s4",
+        "s12",
+        "s19"
+      ],
+      "claim_ids": [
+        "c13"
+      ],
+      "perspective_ids": [
+        "p1",
+        "p13"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 80,
+        "importance": 85,
+        "evidence_strength": 100,
+        "human_stakes": 90,
+        "tension": 80,
+        "audience_relevance": 80,
+        "visual_potential": 75,
+        "timeliness": 85
+      },
+      "editorial_score": 86.0,
+      "counterargument": "STEP TEENS and regulatory decisions suggest that benefits currently outweigh known risks in selected adolescents when carefully monitored.",
+      "unknowns": "Long-term effects on growth, bone density, mental health, and weight trajectories into adulthood.",
+      "risk_notes": "Must avoid alarmist tones while frankly acknowledging unknowns and emphasizing informed consent and monitoring.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a3",
+      "title": "From Diabetes Drug to Obesity Blockbuster: The Semaglutide Story",
+      "hook": "A peptide invented for blood sugar control has become the world’s most talked-about weight-loss drug, reshaping guidelines and markets.",
+      "central_question": "How did semaglutide evolve from a diabetes therapy into a leading obesity treatment, and what turning points in evidence and regulation made this possible?",
+      "why_interesting": "The story illuminates how clinical trials, regulatory demands, and industry strategy transform molecules into cultural phenomena.",
+      "angle_kind": "history",
+      "lens_ids": [
+        "history_and_turning_points",
+        "money_and_business",
+        "power_and_incentives",
+        "current_change",
+        "institutions",
+        "industry",
+        "researchers",
+        "historical_change"
+      ],
+      "source_ids": [
+        "s5",
+        "s4",
+        "s7",
+        "s8",
+        "s10",
+        "s17",
+        "s20",
+        "s1",
+        "s2",
+        "s6",
+        "s15",
+        "s12"
+      ],
+      "claim_ids": [
+        "c2",
+        "c3",
+        "c5",
+        "c18",
+        "c22"
+      ],
+      "perspective_ids": [
+        "p1",
+        "p2",
+        "p5",
+        "p6",
+        "p9",
+        "p15"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 65,
+        "importance": 90,
+        "evidence_strength": 100,
+        "human_stakes": 80,
+        "tension": 80,
+        "audience_relevance": 85,
+        "visual_potential": 80,
+        "timeliness": 90
+      },
+      "editorial_score": 85.0,
+      "counterargument": "Focusing on history and business may underplay individual clinical benefits or suggest unduly cynical motives.",
+      "unknowns": "Future trajectories as newer agents emerge and as obesity indications expand or contract under policy pressures.",
+      "risk_notes": "Must avoid implying wrongdoing without evidence while still discussing commercial incentives frankly.",
+      "overclaiming_risk": "low",
+      "selected_for_story": false
+    },
+    {
+      "id": "a13",
+      "title": "Semaglutide and the Narrative of Personal Responsibility",
+      "hook": "If a drug can quiet hunger and melt kilos, what happens to stories about willpower and blame in obesity?",
+      "central_question": "How is semaglutide reshaping cultural narratives of personal responsibility, stigma, and structural determinants in obesity and diabetes?",
+      "why_interesting": "It invites ethical reflection and challenges deep-seated beliefs about health, choice, and justice.",
+      "angle_kind": "cultural",
+      "lens_ids": [
+        "cultural_meaning",
+        "people_and_perspectives",
+        "power_and_incentives",
+        "public_discourse",
+        "critics",
+        "affected_communities"
+      ],
+      "source_ids": [
+        "s4",
+        "s12",
+        "s16",
+        "s18",
+        "s19",
+        "s10",
+        "s17"
+      ],
+      "claim_ids": [
+        "c23",
+        "c25"
+      ],
+      "perspective_ids": [
+        "p10",
+        "p13"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 80,
+        "importance": 80,
+        "evidence_strength": 100,
+        "human_stakes": 85,
+        "tension": 90,
+        "audience_relevance": 80,
+        "visual_potential": 65,
+        "timeliness": 80
+      },
+      "editorial_score": 84.8,
+      "counterargument": "Pharmacologic tools can coexist with structural approaches to health, and emphasizing one need not erase the other.",
+      "unknowns": "How narratives will evolve as more people access semaglutide and as policy responds to obesity as a disease.",
+      "risk_notes": "Avoid reinforcing stigma or simplistic dichotomies between “choice” and “biology.”",
+      "overclaiming_risk": "high",
+      "selected_for_story": false
+    },
+    {
+      "id": "a7",
+      "title": "Guidelines vs Reality: Who Actually Receives Semaglutide?",
+      "hook": "While guidelines call semaglutide a preferred therapy, many people who need it most can’t get it—or don’t stay on it.",
+      "central_question": "How do clinical guidelines recommending GLP-1 RAs intersect with real-world barriers such as cost, access, and adherence?",
+      "why_interesting": "It reveals the gap between ideal evidence-based care and lived health-system constraints, highlighting equity issues.",
+      "angle_kind": "comparison",
+      "lens_ids": [
+        "comparisons_and_counterfactuals",
+        "tradeoffs",
+        "power_and_incentives",
+        "institutions",
+        "industry",
+        "critics",
+        "affected_communities"
+      ],
+      "source_ids": [
+        "s9",
+        "s10",
+        "s16",
+        "s17"
+      ],
+      "claim_ids": [
+        "c14",
+        "c15",
+        "c19",
+        "c25"
+      ],
+      "perspective_ids": [
+        "p3",
+        "p4",
+        "p12"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 70,
+        "importance": 90,
+        "evidence_strength": 100,
+        "human_stakes": 85,
+        "tension": 80,
+        "audience_relevance": 80,
+        "visual_potential": 60,
+        "timeliness": 85
+      },
+      "editorial_score": 84.2,
+      "counterargument": "Insurers and public systems are gradually expanding coverage, and some inequities may lessen over time.",
+      "unknowns": "Precise patterns of access across demographics and geographies, and how policy reforms will change them.",
+      "risk_notes": "Need to avoid stereotyping particular groups; focus on structural determinants and data.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a18",
+      "title": "Semaglutide in Real Life: Voices from the Pharmacy Line",
+      "hook": "Behind every script for Ozempic or Wegovy is a person negotiating hope, side-effects, and the cost at the counter.",
+      "central_question": "What do everyday users of semaglutide report about its benefits, burdens, and the decision to start or stop therapy?",
+      "why_interesting": "Brings statistics to life and surfaces practical, emotional, and financial realities that trials don’t fully capture.",
+      "angle_kind": "human_story",
+      "lens_ids": [
+        "human_stories",
+        "people_and_perspectives",
+        "tradeoffs",
+        "affected_communities",
+        "public_discourse"
+      ],
+      "source_ids": [
+        "s4",
+        "s12",
+        "s19",
+        "s16",
+        "s1",
+        "s11",
+        "s13",
+        "s14",
+        "s5"
+      ],
+      "claim_ids": [
+        "c7",
+        "c12",
+        "c19",
+        "c21"
+      ],
+      "perspective_ids": [
+        "p13",
+        "p12"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 65,
+        "importance": 80,
+        "evidence_strength": 100,
+        "human_stakes": 90,
+        "tension": 80,
+        "audience_relevance": 85,
+        "visual_potential": 85,
+        "timeliness": 85
+      },
+      "editorial_score": 84.0,
+      "counterargument": "Anecdotal stories may not be representative and could skew viewers’ perceptions away from evidence-based averages.",
+      "unknowns": "Systematic qualitative data across diverse demographics and health-system contexts.",
+      "risk_notes": "Frame personal stories as illustrative, not definitive; interweave data and expert commentary.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a4",
+      "title": "Cardiovascular Wins and Eye Risks: Semaglutide’s Micro vs Macro Trade-offs",
+      "hook": "The same drug that protects hearts may stress fragile eyes when blood sugar improves too fast.",
+      "central_question": "How do semaglutide’s cardiovascular benefits balance against its potential to worsen diabetic retinopathy, and what does that mean for treatment decisions?",
+      "why_interesting": "This angle highlights nuanced risk–benefit thinking and shows that even “good” drugs can have complex side-effect profiles.",
+      "angle_kind": "tradeoff",
+      "lens_ids": [
+        "tradeoffs",
+        "controversies",
+        "core_reality",
+        "experts",
+        "institutions",
+        "researchers"
+      ],
+      "source_ids": [
+        "s5",
+        "s8",
+        "s14",
+        "s1",
+        "s11",
+        "s2",
+        "s6",
+        "s7",
+        "s10",
+        "s15"
+      ],
+      "claim_ids": [
+        "c5",
+        "c11",
+        "c21"
+      ],
+      "perspective_ids": [
+        "p1",
+        "p2",
+        "p6",
+        "p8"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 70,
+        "importance": 85,
+        "evidence_strength": 100,
+        "human_stakes": 80,
+        "tension": 90,
+        "audience_relevance": 75,
+        "visual_potential": 70,
+        "timeliness": 80
+      },
+      "editorial_score": 83.2,
+      "counterargument": "Retinopathy risks may be limited to a small subgroup and manageable with monitoring, so the overall narrative should remain strongly favorable.",
+      "unknowns": "How different rates of glycemic improvement influence retinopathy progression and whether alternative titration regimens could mitigate risk.",
+      "risk_notes": "Need to avoid scaring viewers disproportionately about eye risks relative to cardiovascular benefits.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a11",
+      "title": "Policy and Pricing: The Economics of a Blockbuster Obesity Drug",
+      "hook": "As semaglutide revenues soar into tens of billions, who pays—and who profits?",
+      "central_question": "What economic forces shape semaglutide’s pricing, reimbursement, and global availability, and how do they influence patient care?",
+      "why_interesting": "Connects molecular medicine to macroeconomics, showing how money and power shape therapeutic reality.",
+      "angle_kind": "incentives",
+      "lens_ids": [
+        "money_and_business",
+        "power_and_incentives",
+        "failures_and_unintended_consequences",
+        "institutions",
+        "industry",
+        "critics"
+      ],
+      "source_ids": [
+        "s16",
+        "s17",
+        "s10"
+      ],
+      "claim_ids": [
+        "c18",
+        "c19",
+        "c25"
+      ],
+      "perspective_ids": [
+        "p4",
+        "p9",
+        "p12"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 75,
+        "importance": 85,
+        "evidence_strength": 100,
+        "human_stakes": 80,
+        "tension": 85,
+        "audience_relevance": 75,
+        "visual_potential": 60,
+        "timeliness": 85
+      },
+      "editorial_score": 83.2,
+      "counterargument": "Drug pricing complexity involves R&D costs, risk, and negotiation, and simple blame narratives may be misleading.",
+      "unknowns": "Future price trajectories under regulatory and payer pressure, and impact of biosimilars or competitors.",
+      "risk_notes": "Need nuanced treatment of pricing, avoiding simplistic villainization while highlighting genuine equity concerns.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a9",
+      "title": "Numbers That Matter: How Much Weight Loss and Risk Reduction Does Semaglutide Actually Deliver?",
+      "hook": "Beyond the buzzwords, semaglutide’s impact can be measured—kilograms lost, strokes prevented, lives changed.",
+      "central_question": "What are the key quantitative outcomes for weight, HbA1c, and cardiovascular events across major semaglutide trials, and how should viewers interpret them?",
+      "why_interesting": "Equips audiences with concrete metrics and uncertainty ranges, countering vague or exaggerated claims.",
+      "angle_kind": "practical",
+      "lens_ids": [
+        "core_reality",
+        "overlooked_facts",
+        "comparisons_and_counterfactuals",
+        "researchers",
+        "experts"
+      ],
+      "source_ids": [
+        "s4",
+        "s5",
+        "s6",
+        "s8",
+        "s11",
+        "s13",
+        "s12",
+        "s14"
+      ],
+      "claim_ids": [
+        "c3",
+        "c4",
+        "c5",
+        "c6",
+        "c12",
+        "c13"
+      ],
+      "perspective_ids": [
+        "p5",
+        "p6",
+        "p7",
+        "p8"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 55,
+        "importance": 90,
+        "evidence_strength": 100,
+        "human_stakes": 80,
+        "tension": 60,
+        "audience_relevance": 90,
+        "visual_potential": 80,
+        "timeliness": 85
+      },
+      "editorial_score": 82.0,
+      "counterargument": "Trial populations may not reflect every viewer’s situation, and individual responses can vary widely around average effects.",
+      "unknowns": "Longer-term (>2–3 year) outcomes for non-diabetic obesity populations and varied ethnic subgroups.",
+      "risk_notes": "Emphasize confidence intervals, inclusion criteria, and limitations to avoid overgeneralization.",
+      "overclaiming_risk": "low",
+      "selected_for_story": false
+    },
+    {
+      "id": "a8",
+      "title": "Side-Effect Stories: Living With Semaglutide’s GI Rollercoaster",
+      "hook": "For many users, the path to better health runs through weeks of nausea, vomiting, and fatigue.",
+      "central_question": "What is it like to live through semaglutide’s common GI side-effects, and which strategies help patients cope and continue treatment?",
+      "why_interesting": "Humanizes the risk–benefit trade-off and supports realistic expectations and coping strategies for potential users.",
+      "angle_kind": "human_story",
+      "lens_ids": [
+        "human_stories",
+        "practical_value",
+        "tradeoffs",
+        "affected_communities",
+        "experts"
+      ],
+      "source_ids": [
+        "s1",
+        "s11",
+        "s13",
+        "s14",
+        "s19",
+        "s5",
+        "s4",
+        "s12"
+      ],
+      "claim_ids": [
+        "c7",
+        "c21"
+      ],
+      "perspective_ids": [
+        "p8",
+        "p11",
+        "p13"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 65,
+        "importance": 80,
+        "evidence_strength": 100,
+        "human_stakes": 80,
+        "tension": 70,
+        "audience_relevance": 85,
+        "visual_potential": 75,
+        "timeliness": 80
+      },
+      "editorial_score": 81.2,
+      "counterargument": "Some patients experience minimal side-effects, and overemphasizing GI distress could deter appropriate use.",
+      "unknowns": "Which patient-level factors (e.g., genetic, behavioral) predict tolerability and side-effect severity.",
+      "risk_notes": "Balance challenging experiences with success stories and coping strategies; avoid sensationalizing rare severe events.",
+      "overclaiming_risk": "low",
+      "selected_for_story": false
+    },
+    {
+      "id": "a14",
+      "title": "Rare Risks and Boxed Warnings: What Should Patients Really Worry About?",
+      "hook": "Rodent thyroid tumors, pancreatitis, gallstones—semaglutide’s label is long. But which risks matter most for real people?",
+      "central_question": "How should patients interpret semaglutide’s boxed warning and rare adverse-event signals in light of current human evidence?",
+      "why_interesting": "Clarifies confusing safety information, empowering informed consent without unnecessary fear.",
+      "angle_kind": "myth_audit",
+      "lens_ids": [
+        "myths_and_misconceptions",
+        "core_reality",
+        "experts",
+        "institutions"
+      ],
+      "source_ids": [
+        "s2",
+        "s5",
+        "s14",
+        "s19",
+        "s11",
+        "s8",
+        "s6",
+        "s7",
+        "s10",
+        "s15"
+      ],
+      "claim_ids": [
+        "c9",
+        "c10",
+        "c11"
+      ],
+      "perspective_ids": [
+        "p1",
+        "p8",
+        "p11"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 65,
+        "importance": 85,
+        "evidence_strength": 100,
+        "human_stakes": 75,
+        "tension": 70,
+        "audience_relevance": 80,
+        "visual_potential": 60,
+        "timeliness": 80
+      },
+      "editorial_score": 80.2,
+      "counterargument": "Some clinicians may worry that downplaying rare risks could reduce vigilance for serious adverse events.",
+      "unknowns": "Long-term incidence of thyroid and pancreatic malignancies in large semaglutide-exposed cohorts.",
+      "risk_notes": "Emphasize that rare risks are real but low-probability and should be integrated into shared decision-making.",
+      "overclaiming_risk": "low",
+      "selected_for_story": false
+    },
+    {
+      "id": "a10",
+      "title": "GLP-1s in Context: How Semaglutide Compares with Other Diabetes and Obesity Drugs",
+      "hook": "Semaglutide isn’t the only option—but it often outperforms its rivals on both blood sugar and weight.",
+      "central_question": "How does semaglutide’s efficacy and safety compare to other GLP-1 receptor agonists and alternative diabetes and obesity medications?",
+      "why_interesting": "Helps viewers situate semaglutide among therapeutic options and understand why guidelines prioritize it.",
+      "angle_kind": "comparison",
+      "lens_ids": [
+        "comparisons_and_counterfactuals",
+        "core_reality",
+        "overlooked_facts",
+        "researchers",
+        "experts",
+        "institutions"
+      ],
+      "source_ids": [
+        "s8",
+        "s9",
+        "s11",
+        "s14",
+        "s20",
+        "s1",
+        "s5"
+      ],
+      "claim_ids": [
+        "c21",
+        "c22"
+      ],
+      "perspective_ids": [
+        "p3",
+        "p8",
+        "p15"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 60,
+        "importance": 80,
+        "evidence_strength": 100,
+        "human_stakes": 75,
+        "tension": 65,
+        "audience_relevance": 80,
+        "visual_potential": 70,
+        "timeliness": 80
+      },
+      "editorial_score": 78.5,
+      "counterargument": "Rapid evolution of the field with agents like tirzepatide may change comparative rankings quickly.",
+      "unknowns": "Head-to-head long-term outcome data between semaglutide and newer dual or triple agonists.",
+      "risk_notes": "Avoid presenting current rankings as static; frame as evolving landscape.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a2",
+      "title": "Inside the GLP-1 Pathway: How Semaglutide Really Works",
+      "hook": "Beyond the hype, semaglutide is a finely engineered hormone mimic rewiring signals between gut, pancreas, fat tissue, and brain.",
+      "central_question": "What are the biological mechanisms by which semaglutide improves glycemic control and reduces appetite, and which mechanistic claims remain speculative?",
+      "why_interesting": "Explaining the biology demystifies the drug, counters magical thinking, and shows how modern pharmacology builds on basic endocrinology.",
+      "angle_kind": "history",
+      "lens_ids": [
+        "core_reality",
+        "history_and_turning_points",
+        "overlooked_facts",
+        "practical_value",
+        "visual_potential",
+        "researchers",
+        "experts",
+        "historical_change"
+      ],
+      "source_ids": [
+        "s1",
+        "s3",
+        "s20",
+        "s9",
+        "s14"
+      ],
+      "claim_ids": [
+        "c1",
+        "c20",
+        "c22"
+      ],
+      "perspective_ids": [
+        "p3",
+        "p8",
+        "p15"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "high",
+      "scores": {
+        "novelty": 60,
+        "importance": 80,
+        "evidence_strength": 100,
+        "human_stakes": 70,
+        "tension": 60,
+        "audience_relevance": 80,
+        "visual_potential": 95,
+        "timeliness": 75
+      },
+      "editorial_score": 78.5,
+      "counterargument": "Some viewers may find mechanistic detail too technical or tangential to their lived decisions about semaglutide.",
+      "unknowns": "To what extent preclinical mechanistic findings translate into human health outcomes, and whether future data will confirm or refute current hypotheses.",
+      "risk_notes": "Need to avoid overstating preclinical findings as established human effects.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a17",
+      "title": "Semaglutide and Kidney Protection: More Than Blood Sugar?",
+      "hook": "Some patients on semaglutide aren’t just avoiding strokes—they may be delaying kidney failure.",
+      "central_question": "What evidence suggests that semaglutide protects kidney function in type 2 diabetes, and how clinically important is this effect?",
+      "why_interesting": "Highlights a less-discussed benefit with major implications for quality of life and health-system costs.",
+      "angle_kind": "overlooked",
+      "lens_ids": [
+        "overlooked_facts",
+        "core_reality",
+        "tradeoffs",
+        "researchers",
+        "experts",
+        "institutions"
+      ],
+      "source_ids": [
+        "s5",
+        "s7",
+        "s8",
+        "s14",
+        "s1",
+        "s11",
+        "s2",
+        "s6",
+        "s10",
+        "s15"
+      ],
+      "claim_ids": [
+        "c5",
+        "c21"
+      ],
+      "perspective_ids": [
+        "p1",
+        "p2",
+        "p6",
+        "p8"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 70,
+        "importance": 80,
+        "evidence_strength": 100,
+        "human_stakes": 80,
+        "tension": 60,
+        "audience_relevance": 70,
+        "visual_potential": 60,
+        "timeliness": 75
+      },
+      "editorial_score": 77.8,
+      "counterargument": "Kidney outcomes data, while promising, are still limited compared to cardiovascular findings and may be confounded by broader risk-factor improvements.",
+      "unknowns": "Extent to which kidney-protective effects persist long term and across diverse patient subgroups.",
+      "risk_notes": "Avoid overstating kidney-protection as a primary indication; present as emerging benefit.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
+    },
+    {
+      "id": "a16",
+      "title": "Future of GLP-1s: Semaglutide in the Age of Dual and Triple Agonists",
+      "hook": "Semaglutide may be the star today, but newer incretin cocktails are already lining up in the wings.",
+      "central_question": "How does semaglutide fit into the evolving landscape of incretin-based therapies, and what might future drugs mean for its role?",
+      "why_interesting": "Points beyond the current moment, helping viewers see semaglutide as part of a broader therapeutic trajectory.",
+      "angle_kind": "future_signal",
+      "lens_ids": [
+        "future_signals",
+        "history_and_turning_points",
+        "comparisons_and_counterfactuals",
+        "researchers",
+        "industry",
+        "experts"
+      ],
+      "source_ids": [
+        "s9",
+        "s20",
+        "s17"
+      ],
+      "claim_ids": [
+        "c22"
+      ],
+      "perspective_ids": [
+        "p3",
+        "p15",
+        "p9"
+      ],
+      "evidence_status": "corroborated",
+      "confidence": "medium",
+      "scores": {
+        "novelty": 70,
+        "importance": 75,
+        "evidence_strength": 100,
+        "human_stakes": 70,
+        "tension": 65,
+        "audience_relevance": 70,
+        "visual_potential": 60,
+        "timeliness": 80
+      },
+      "editorial_score": 76.5,
+      "counterargument": "Future agents are still under study and it may be premature to prognosticate comparative roles.",
+      "unknowns": "Real-world performance, safety, and cost of newer dual and triple agonists compared to semaglutide.",
+      "risk_notes": "Avoid speculative ranking of future drugs; focus on trends and open questions.",
+      "overclaiming_risk": "medium",
+      "selected_for_story": false
     }
   ],
   "partial_project_audit": {
     "has_existing_research": true,
     "has_existing_script": false,
-    "existing_claim_count": 0,
-    "existing_source_count": 19,
+    "existing_claim_count": 25,
+    "existing_source_count": 20,
     "unattributed_claim_candidates": 0,
     "represented_perspective_lenses": [
       "institutions",
       "researchers",
       "experts",
       "industry",
+      "critics",
       "affected_communities",
       "historical_change"
     ],
     "missing_perspective_lenses": [
-      "critics",
       "public_discourse"
     ],
     "warnings": [
       "Requested perspective lenses are not yet represented."
     ]
   },
-  "created_at": "2026-07-26T14:02:52.090245Z",
+  "created_at": "2026-07-26T17:51:58.644424Z",
   "approved_by": null,
   "approved_at": null
 }

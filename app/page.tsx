@@ -64,7 +64,41 @@ interface Gap {
   severity: "high" | "medium";
 }
 
+interface AngleScores {
+  novelty: number;
+  importance: number;
+  evidence_strength: number;
+  human_stakes: number;
+  tension: number;
+  audience_relevance: number;
+  visual_potential: number;
+  timeliness: number;
+}
+
+interface AngleCandidate {
+  id: string;
+  title: string;
+  hook: string;
+  central_question: string;
+  why_interesting: string;
+  angle_kind: string;
+  lens_ids: string[];
+  source_ids: string[];
+  claim_ids: string[];
+  perspective_ids: string[];
+  evidence_status: EvidenceStatus;
+  confidence: Confidence;
+  scores: AngleScores;
+  editorial_score: number;
+  counterargument: string;
+  unknowns: string;
+  risk_notes: string;
+  overclaiming_risk: "high" | "medium" | "low";
+  selected_for_story: boolean;
+}
+
 interface Dossier {
+  schema_version: number;
   version: number;
   status: string;
   summary: string;
@@ -74,6 +108,7 @@ interface Dossier {
   perspectives: Perspective[];
   contradictions: Contradiction[];
   gaps: Gap[];
+  angle_candidates: AngleCandidate[];
   partial_project_audit: {
     represented_perspective_lenses: string[];
     missing_perspective_lenses: string[];
@@ -111,6 +146,11 @@ function humanize(value: string): string {
   return value.replaceAll("_", " ");
 }
 
+function sourceLabel(id: string): string {
+  const normalized = id.replace(/^source-/, "").replace(/^s/i, "");
+  return `S${normalized}`;
+}
+
 function formatDate(value: string | null): string {
   if (value === null) {
     return "Date not recorded";
@@ -134,7 +174,7 @@ function SourceRefs({ ids }: { ids: string[] }): React.ReactNode {
         const source = sourceById.get(id);
         return (
           <a href={`#${id}`} key={id} title={source?.title ?? id}>
-            {id.replace("source-", "S")}
+            {sourceLabel(id)}
           </a>
         );
       })}
@@ -187,6 +227,7 @@ export default function Home(): React.ReactNode {
           </span>
         </a>
         <div className="nav-links">
+          <a href="#angles">Angles</a>
           <a href="#claims">Claims</a>
           <a href="#perspectives">Perspectives</a>
           <a href="#contradictions">Contradictions</a>
@@ -229,6 +270,10 @@ export default function Home(): React.ReactNode {
                 <span>Perspectives</span>
               </div>
               <div>
+                <strong>{dossier.angle_candidates.length}</strong>
+                <span>Story angles</span>
+              </div>
+              <div>
                 <strong>{dossier.contradictions.length}</strong>
                 <span>Contradictions</span>
               </div>
@@ -268,9 +313,85 @@ export default function Home(): React.ReactNode {
           </div>
         </section>
 
+        <section className="section" id="angles">
+          <SectionHeading
+            eyebrow="02 · Editorial discovery"
+            title="Ranked story angles"
+            count={dossier.angle_candidates.length}
+          >
+            Potential narratives are ranked by evidence, importance, human
+            stakes, tension, relevance, visual potential, and timeliness. These
+            are candidates for human selection, not approved story directions.
+          </SectionHeading>
+
+          <div className="angle-list">
+            {dossier.angle_candidates.map((angle, index) => (
+              <article className="angle-card" key={angle.id}>
+                <header className="angle-header">
+                  <div className="angle-rank">
+                    <span>Rank</span>
+                    <strong>{String(index + 1).padStart(2, "0")}</strong>
+                  </div>
+                  <div className="angle-title">
+                    <div className="angle-meta">
+                      <span>{humanize(angle.angle_kind)}</span>
+                      <span className={`confidence ${angle.confidence}`}>
+                        {angle.confidence} confidence
+                      </span>
+                      <span className={`risk ${angle.overclaiming_risk}`}>
+                        {angle.overclaiming_risk} overclaiming risk
+                      </span>
+                    </div>
+                    <h3>{angle.title}</h3>
+                  </div>
+                  <div className="angle-score">
+                    <span>Editorial score</span>
+                    <strong>{angle.editorial_score}</strong>
+                  </div>
+                </header>
+
+                <p className="angle-hook">{angle.hook}</p>
+
+                <div className="angle-question">
+                  <span>Central question</span>
+                  <p>{angle.central_question}</p>
+                </div>
+
+                <div className="angle-details">
+                  <div>
+                    <span>Why it matters</span>
+                    <p>{angle.why_interesting}</p>
+                  </div>
+                  <div>
+                    <span>Counterargument</span>
+                    <p>{angle.counterargument}</p>
+                  </div>
+                  <div>
+                    <span>Still unknown</span>
+                    <p>{angle.unknowns}</p>
+                  </div>
+                  <div>
+                    <span>Editorial risk</span>
+                    <p>{angle.risk_notes}</p>
+                  </div>
+                </div>
+
+                <footer className="angle-footer">
+                  <div className="angle-lenses">
+                    {angle.lens_ids.map((lens) => (
+                      <span key={lens}>{humanize(lens)}</span>
+                    ))}
+                  </div>
+                  <SourceRefs ids={angle.source_ids} />
+                </footer>
+              </article>
+            ))}
+          </div>
+        </section>
+
         <section className="section" id="claims">
           <SectionHeading
-            eyebrow="02 · Evidence map"
+            eyebrow="03 · Evidence map"
             title="Evidence claims"
             count={dossier.claims.length}
           >
@@ -325,7 +446,7 @@ export default function Home(): React.ReactNode {
 
         <section className="section" id="perspectives">
           <SectionHeading
-            eyebrow="03 · Who says what"
+            eyebrow="04 · Who says what"
             title="Attributed perspectives"
             count={dossier.perspectives.length}
           >
@@ -381,7 +502,7 @@ export default function Home(): React.ReactNode {
 
         <section className="section" id="contradictions">
           <SectionHeading
-            eyebrow="04 · Editorial decisions"
+            eyebrow="05 · Editorial decisions"
             title="Contradictions to resolve"
             count={dossier.contradictions.length}
           >
@@ -421,7 +542,7 @@ export default function Home(): React.ReactNode {
 
         <section className="section" id="gaps">
           <SectionHeading
-            eyebrow="05 · Unknowns"
+            eyebrow="06 · Unknowns"
             title="Evidence gaps"
             count={dossier.gaps.length}
           >
@@ -445,7 +566,7 @@ export default function Home(): React.ReactNode {
 
         <section className="section sources-section" id="sources">
           <SectionHeading
-            eyebrow="06 · Provenance"
+            eyebrow="07 · Provenance"
             title="Source register"
             count={dossier.sources.length}
           >
@@ -456,9 +577,7 @@ export default function Home(): React.ReactNode {
           <div className="source-list">
             {dossier.sources.map((source) => (
               <article className="source-card" id={source.id} key={source.id}>
-                <div className="source-id">
-                  {source.id.replace("source-", "S")}
-                </div>
+                <div className="source-id">{sourceLabel(source.id)}</div>
                 <div className="source-main">
                   <a
                     className="source-title"
