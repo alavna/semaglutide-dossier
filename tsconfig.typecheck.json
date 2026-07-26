@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "data/**/*.json",
+    "next-env.d.ts"
+  ],
+  "exclude": [
+    "app/chatgpt-auth.ts",
+    "app/_sites-preview",
+    "node_modules"
+  ]
+}

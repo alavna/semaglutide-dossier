@@ -36,7 +36,17 @@ yarn-error.log*
 
 # typescript
 next-env.d.ts
+*.tsbuildinfo
 /dist/
 /.wrangler/
 /outputs/
 /work/
+
+# unneeded vinext files copied by an earlier local Pages export
+/docs/.assetsignore
+/docs/.vite/
+/docs/_headers
+/docs/assets/
+/docs/file.svg
+/docs/globe.svg
+/docs/window.svg
